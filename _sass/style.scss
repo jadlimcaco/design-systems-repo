@@ -1,0 +1,292 @@
+
+/*==========================
+— S U B T R A C T
+----------------------
+Version 2
+
+http://getsubtract.com
+============================*/
+
+/*============================================================
+GLOBAL STYLES
+==============================================================*/
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-size: 62.5%;
+}
+
+body {
+  background: #f9f9fb;
+  color: #1b1b1b;
+  font: 1.6rem/1 "IBM Plex Sans", Helvetica, Helvetica, Arial, sans-serif;
+}
+
+@media screen and (max-device-width: 720px) {
+
+  /* Change Color of Tap Highlight in Touch Devices */
+  html { -webkit-tap-highlight-color: rgba(0,0,0,.5); }
+  body { -webkit-text-size-adjust: none; }
+
+}
+
+/* HEADINGS
+---------------------------------------- */
+h1, h2, h3, h4, h5, h6 {
+  color: #333;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+h1 { font-size: 3.0rem; }
+h2 { font-size: 2.4rem; }
+h3 { font-size: 1.8rem; }
+h4 { font-size: 1.6rem; }
+
+/* PARAGRAPH
+---------------------------------------- */
+p {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  margin-bottom: 1.6rem;
+  text-rendering: optimizeLegibility;
+}
+
+/* OTHER TAGS
+---------------------------------------- */
+em      { font-style: italic; }
+strong  { font-weight: bold; }
+small   { font-size: .75rem; }
+hr {
+  border-top: solid 1px #ddd;
+  clear: both;
+  margin: 1rem 0;
+  height: 0;
+  -moz-box-sizing: content-box;
+       box-sizing: content-box;
+}
+
+/* LINKS
+---------------------------------------- */
+a {
+  color: #2b85cb;
+  text-decoration: none;
+  outline: 0;
+}
+a:hover, a:focus { color: #1069ad; }
+
+/* CODE
+---------------------------------------- */
+code {
+  font-family: Consolas, Courier, monospace;
+  color: #333;
+  background-color: #efeded;
+  border: solid 1px #e0e0e0;
+  display: block;
+}
+
+/* LISTS
+Add .list to ul or ol to display
+list with bullets and numbers.
+---------------------------------------- */
+ul.list,
+ol.list {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  margin: 0 0 1.6rem;
+  list-style-position: outside;
+}
+
+/* Unordered Lists */
+ul.list { 
+  margin-left: 1.6rem;
+  list-style-type: disc;
+}
+ul.list li ul             { margin-left: 1.6rem; }
+ul.list li ol             { margin-left: 2.25rem; }
+
+/* Ordered Lists */
+ol.list {
+  margin-left: 2.2rem;
+  list-style-type: decimal;
+}
+ol.list li ul             { margin: 0 0 0 1.6rem; }
+ol.list li ol             { margin: 0 0 0 2.2rem; }
+
+/* BLOCKQUOTES
+---------------------------------------- */
+blockquote {
+  margin: 0 0 1.25rem;
+  padding: 0.5625rem 1.25rem 0 1.1875rem;
+  border-left: solid 1px #ddd;
+}
+blockquote cite {
+  display: block;
+  font-size: 0.8125rem;
+  color: #555; }
+blockquote cite:before     { content: "\2014 \0020"; }
+blockquote cite a,
+blockquote cite a:visited  { color: #555555; }
+blockquote,
+blockquote p  {
+  line-height: 1.6;
+  color: #6f6f6f;
+}
+
+/* SELECTION
+---------------------------------------- */
+::selection {
+  background: #333;
+  color: #fff;
+}
+::-moz-selection {
+  background: #333;
+  color: #fff;
+}
+
+// Import partials.
+@import
+  "legos/syntax-highlighting"
+;
+
+/*============================================================
+CONTENT
+============================================================*/
+.site-header {
+  width: 100%;
+  display: block;
+  background: #13161F;
+  margin-bottom: 6rem;
+  padding: 1rem;
+}
+
+.site-header a {
+  color: #fff;
+  display: inline-block;
+}
+
+.page-content { 
+  max-width: 140rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.post-content {
+  display: flex;
+  align-self: stretch;
+  justify-content: space-between;
+  align-content: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  height: 100%;
+}
+
+h1.post-title {
+  margin-bottom: 4rem;
+}
+
+.post-content:after {
+  content: "";
+  width: 30%;
+}
+
+.block {
+  border-radius: 6px;
+  margin-bottom: 6.4rem;
+  background: #fff;
+  box-shadow: 0 1px 1px 1px rgba(10, 16, 34, .11);
+}
+
+.block-ds {
+  width: 30%;
+  overflow: hidden;
+  transition: all ease-in .23s;
+}
+
+a.block-ds {
+  color: #1b1b1b;
+}
+
+.block-ds:hover {
+  box-shadow: 0 10px 30px -2px rgba(10, 16, 34, .18);
+}
+
+.block-ds:hover img {
+  opacity:0.55;
+}
+
+.block-ds img { 
+  max-width: 100%;
+  height: auto;
+  transition: all ease-in .23s;
+}
+
+.block .content {
+  padding:2.4rem 2.8rem 3.2rem;
+}
+
+.block p {
+  margin: 0;
+  font-size: 1.5rem;
+  opacity: 0.85;
+}
+
+.block h2 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-bottom: 1.6rem;
+}
+
+.block h3 {
+  font-size: 1.2rem;
+  font-weight: normal;
+  font-family:"IBM Plex Mono";
+  text-transform: uppercase;
+  margin:0 0 .6rem;
+  opacity: 0.72;
+  letter-spacing: 1px;
+}
+
+.img-wrap {
+  width: 100%;
+  overflow: hidden;
+  display: block;
+  background: #1A3374;
+  border-bottom: solid 1px #f1f1f1;
+  line-height: 0;
+  text-align: center;
+}
+
+
+
+
+
+/*============================================================
+RESPONSIVE
+============================================================*/
+
+/* SCREENS (960px)
+---------------------------------------- */
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+
+}
+
+
+/* SCREENS (720px)
+---------------------------------------- */
+@media only screen and (min-width: 720px) and (max-width: 959px) {
+
+html                      { font-size: 55%; }
+
+}
+
+
+/* MOBILE (719px or Less)
+---------------------------------------- */
+@media only screen and (max-width: 719px) {
+
+html                      { font-size: 50%; }
+
+}
