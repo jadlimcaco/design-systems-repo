@@ -15,8 +15,8 @@
 
     {%- include footer.html -%}
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="js/clamp.js"></script>
-    <script src="js/lazyload.js"></script>
+    <script src="{{ "js/clamp.js" | relative_url }}"></script>
+    <script src="{{ "js/lazyload.js" | relative_url }}"></script>
     {% include lazyload.html %}
 
   </body>
