@@ -1,0 +1,398 @@
+/Library/Developer/CommandLineTools/usr/bin/make  all-recursive
+Making all in include
+Making all in libxml
+make[3]: Nothing to be done for `all'.
+make[3]: Nothing to be done for `all-am'.
+Making all in .
+  CC       SAX.lo
+  CC       entities.lo
+  CC       encoding.lo
+encoding.c:497:26: warning: cast from 'const unsigned char *' to 'unsigned short *' increases required alignment from 1 to 2 [-Wcast-align]
+    unsigned short* in = (unsigned short*) inb;
+                         ^~~~~~~~~~~~~~~~~~~~~
+encoding.c:579:27: warning: cast from 'unsigned char *' to 'unsigned short *' increases required alignment from 1 to 2 [-Wcast-align]
+    unsigned short* out = (unsigned short*) outb;
+                          ^~~~~~~~~~~~~~~~~~~~~~
+encoding.c:735:26: warning: cast from 'const unsigned char *' to 'unsigned short *' increases required alignment from 1 to 2 [-Wcast-align]
+    unsigned short* in = (unsigned short*) inb;
+                         ^~~~~~~~~~~~~~~~~~~~~
+encoding.c:821:27: warning: cast from 'unsigned char *' to 'unsigned short *' increases required alignment from 1 to 2 [-Wcast-align]
+    unsigned short* out = (unsigned short*) outb;
+                          ^~~~~~~~~~~~~~~~~~~~~~
+4 warnings generated.
+encoding.c:497:26: warning: cast from 'const unsigned char *' to 'unsigned short *' increases required alignment from 1 to 2 [-Wcast-align]
+    unsigned short* in = (unsigned short*) inb;
+                         ^~~~~~~~~~~~~~~~~~~~~
+encoding.c:579:27: warning: cast from 'unsigned char *' to 'unsigned short *' increases required alignment from 1 to 2 [-Wcast-align]
+    unsigned short* out = (unsigned short*) outb;
+                          ^~~~~~~~~~~~~~~~~~~~~~
+encoding.c:735:26: warning: cast from 'const unsigned char *' to 'unsigned short *' increases required alignment from 1 to 2 [-Wcast-align]
+    unsigned short* in = (unsigned short*) inb;
+                         ^~~~~~~~~~~~~~~~~~~~~
+encoding.c:821:27: warning: cast from 'unsigned char *' to 'unsigned short *' increases required alignment from 1 to 2 [-Wcast-align]
+    unsigned short* out = (unsigned short*) outb;
+                          ^~~~~~~~~~~~~~~~~~~~~~
+4 warnings generated.
+  CC       error.lo
+  CC       parserInternals.lo
+  CC       parser.lo
+  CC       tree.lo
+  CC       hash.lo
+  CC       list.lo
+  CC       xmlIO.lo
+  CC       xmlmemory.lo
+  CC       uri.lo
+  CC       valid.lo
+  CC       xlink.lo
+  CC       HTMLparser.lo
+  CC       HTMLtree.lo
+  CC       debugXML.lo
+  CC       xpath.lo
+xpath.c:4897:73: warning: passing 'xmlXPathFunction' (aka 'void (*)(struct _xmlXPathParserContext *, int)') to parameter of type 'void *' converts between void pointer and function pointer [-Wpedantic]
+    return(xmlHashAddEntry2(ctxt->funcHash, name, ns_uri, XML_CAST_FPTR(f)));
+                                                                        ^
+./include/libxml/hash.h:56:29: note: expanded from macro 'XML_CAST_FPTR'
+#define XML_CAST_FPTR(fptr) fptr
+                            ^~~~
+./include/libxml/hash.h:131:34: note: passing argument to parameter 'userdata' here
+                                         void *userdata);
+                                               ^
+xpath.c:4978:24: warning: assigning to 'xmlXPathFunction' (aka 'void (*)(struct _xmlXPathParserContext *, int)') from 'void *' converts between void pointer and function pointer [-Wpedantic]
+    XML_CAST_FPTR(ret) = xmlHashLookup2(ctxt->funcHash, name, ns_uri);
+                       ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from xpath.c:483:
+./trionan.c:194:1: warning: unused function 'trio_is_special_quantity' [-Wunused-function]
+trio_is_special_quantity
+^
+./trionan.c:218:1: warning: unused function 'trio_is_negative' [-Wunused-function]
+trio_is_negative
+^
+4 warnings generated.
+xpath.c:4897:73: warning: passing 'xmlXPathFunction' (aka 'void (*)(struct _xmlXPathParserContext *, int)') to parameter of type 'void *' converts between void pointer and function pointer [-Wpedantic]
+    return(xmlHashAddEntry2(ctxt->funcHash, name, ns_uri, XML_CAST_FPTR(f)));
+                                                                        ^
+./include/libxml/hash.h:56:29: note: expanded from macro 'XML_CAST_FPTR'
+#define XML_CAST_FPTR(fptr) fptr
+                            ^~~~
+./include/libxml/hash.h:131:34: note: passing argument to parameter 'userdata' here
+                                         void *userdata);
+                                               ^
+xpath.c:4978:24: warning: assigning to 'xmlXPathFunction' (aka 'void (*)(struct _xmlXPathParserContext *, int)') from 'void *' converts between void pointer and function pointer [-Wpedantic]
+    XML_CAST_FPTR(ret) = xmlHashLookup2(ctxt->funcHash, name, ns_uri);
+                       ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from xpath.c:483:
+./trionan.c:194:1: warning: unused function 'trio_is_special_quantity' [-Wunused-function]
+trio_is_special_quantity
+^
+./trionan.c:218:1: warning: unused function 'trio_is_negative' [-Wunused-function]
+trio_is_negative
+^
+4 warnings generated.
+  CC       xpointer.lo
+  CC       xinclude.lo
+  CC       nanohttp.lo
+  CC       nanoftp.lo
+  CC       catalog.lo
+  CC       globals.lo
+  CC       threads.lo
+threads.c:425:9: warning: comparison of function 'pthread_mutex_lock' not equal to a null pointer is always true [-Wtautological-pointer-compare]
+    if (pthread_mutex_lock != NULL)
+        ^~~~~~~~~~~~~~~~~~    ~~~~
+threads.c:425:9: note: prefix with the address-of operator to silence this warning
+    if (pthread_mutex_lock != NULL)
+        ^
+        &
+threads.c:495:9: warning: comparison of function 'pthread_mutex_unlock' not equal to a null pointer is always true [-Wtautological-pointer-compare]
+    if (pthread_mutex_unlock != NULL)
+        ^~~~~~~~~~~~~~~~~~~~    ~~~~
+threads.c:495:9: note: prefix with the address-of operator to silence this warning
+    if (pthread_mutex_unlock != NULL)
+        ^
+        &
+threads.c:849:14: warning: comparison of function 'pthread_once' not equal to a null pointer is always true [-Wtautological-pointer-compare]
+        if ((pthread_once != NULL) &&
+             ^~~~~~~~~~~~    ~~~~
+threads.c:849:14: note: prefix with the address-of operator to silence this warning
+        if ((pthread_once != NULL) &&
+             ^
+             &
+threads.c:850:14: warning: comparison of function 'pthread_getspecific' not equal to a null pointer is always true [-Wtautological-pointer-compare]
+            (pthread_getspecific != NULL) &&
+             ^~~~~~~~~~~~~~~~~~~    ~~~~
+threads.c:850:14: note: prefix with the address-of operator to silence this warning
+            (pthread_getspecific != NULL) &&
+             ^
+             &
+threads.c:851:14: warning: comparison of function 'pthread_setspecific' not equal to a null pointer is always true [-Wtautological-pointer-compare]
+            (pthread_setspecific != NULL) &&
+             ^~~~~~~~~~~~~~~~~~~    ~~~~
+threads.c:851:14: note: prefix with the address-of operator to silence this warning
+            (pthread_setspecific != NULL) &&
+             ^
+             &
+threads.c:852:14: warning: comparison of function 'pthread_key_create' not equal to a null pointer is always true [-Wtautological-pointer-compare]
+            (pthread_key_create != NULL) &&
+             ^~~~~~~~~~~~~~~~~~    ~~~~
+threads.c:852:14: note: prefix with the address-of operator to silence this warning
+            (pthread_key_create != NULL) &&
+             ^
+             &
+threads.c:853:14: warning: comparison of function 'pthread_key_delete' not equal to a null pointer is always true [-Wtautological-pointer-compare]
+            (pthread_key_delete != NULL) &&
+             ^~~~~~~~~~~~~~~~~~    ~~~~
+threads.c:853:14: note: prefix with the address-of operator to silence this warning
+            (pthread_key_delete != NULL) &&
+             ^
+             &
+threads.c:854:14: warning: comparison of function 'pthread_mutex_init' not equal to a null pointer is always true [-Wtautological-pointer-compare]
+            (pthread_mutex_init != NULL) &&
+             ^~~~~~~~~~~~~~~~~~    ~~~~
+threads.c:854:14: note: prefix with the address-of operator to silence this warning
+            (pthread_mutex_init != NULL) &&
+             ^
+             &
+threads.c:855:14: warning: comparison of function 'pthread_mutex_destroy' not equal to a null pointer is always true [-Wtautological-pointer-compare]
+            (pthread_mutex_destroy != NULL) &&
+             ^~~~~~~~~~~~~~~~~~~~~    ~~~~
+threads.c:855:14: note: prefix with the address-of operator to silence this warning
+            (pthread_mutex_destroy != NULL) &&
+             ^
+             &
+threads.c:856:14: warning: comparison of function 'pthread_mutex_lock' not equal to a null pointer is always true [-Wtautological-pointer-compare]
+            (pthread_mutex_lock != NULL) &&
+             ^~~~~~~~~~~~~~~~~~    ~~~~
+threads.c:856:14: note: prefix with the address-of operator to silence this warning
+            (pthread_mutex_lock != NULL) &&
+             ^
+             &
+threads.c:857:14: warning: comparison of function 'pthread_mutex_unlock' not equal to a null pointer is always true [-Wtautological-pointer-compare]
+            (pthread_mutex_unlock != NULL) &&
+             ^~~~~~~~~~~~~~~~~~~~    ~~~~
+threads.c:857:14: note: prefix with the address-of operator to silence this warning
+            (pthread_mutex_unlock != NULL) &&
+             ^
+             &
+threads.c:858:14: warning: comparison of function 'pthread_cond_init' not equal to a null pointer is always true [-Wtautological-pointer-compare]
+            (pthread_cond_init != NULL) &&
+             ^~~~~~~~~~~~~~~~~    ~~~~
+threads.c:858:14: note: prefix with the address-of operator to silence this warning
+            (pthread_cond_init != NULL) &&
+             ^
+             &
+threads.c:859:14: warning: comparison of function 'pthread_cond_destroy' not equal to a null pointer is always true [-Wtautological-pointer-compare]
+            (pthread_cond_destroy != NULL) &&
+             ^~~~~~~~~~~~~~~~~~~~    ~~~~
+threads.c:859:14: note: prefix with the address-of operator to silence this warning
+            (pthread_cond_destroy != NULL) &&
+             ^
+             &
+threads.c:860:14: warning: comparison of function 'pthread_cond_wait' not equal to a null pointer is always true [-Wtautological-pointer-compare]
+            (pthread_cond_wait != NULL) &&
+             ^~~~~~~~~~~~~~~~~    ~~~~
+threads.c:860:14: note: prefix with the address-of operator to silence this warning
+            (pthread_cond_wait != NULL) &&
+             ^
+             &
+threads.c:861:14: warning: comparison of function 'pthread_equal' not equal to a null pointer is always true [-Wtautological-pointer-compare]
+            (pthread_equal != NULL) &&
+             ^~~~~~~~~~~~~    ~~~~
+threads.c:861:14: note: prefix with the address-of operator to silence this warning
+            (pthread_equal != NULL) &&
+             ^
+             &
+threads.c:862:14: warning: comparison of function 'pthread_self' not equal to a null pointer is always true [-Wtautological-pointer-compare]
+            (pthread_self != NULL) &&
+             ^~~~~~~~~~~~    ~~~~
+threads.c:862:14: note: prefix with the address-of operator to silence this warning
+            (pthread_self != NULL) &&
+             ^
+             &
+threads.c:862:14: note: suffix with parentheses to turn this into a function call
+            (pthread_self != NULL) &&
+             ^
+                         ()
+threads.c:863:14: warning: comparison of function 'pthread_cond_signal' not equal to a null pointer is always true [-Wtautological-pointer-compare]
+            (pthread_cond_signal != NULL)) {
+             ^~~~~~~~~~~~~~~~~~~    ~~~~
+threads.c:863:14: note: prefix with the address-of operator to silence this warning
+            (pthread_cond_signal != NULL)) {
+             ^
+             &
+threads.c:899:35: warning: comparison of function 'pthread_key_delete' not equal to a null pointer is always true [-Wtautological-pointer-compare]
+    if ((libxml_is_threaded)  && (pthread_key_delete != NULL))
+                                  ^~~~~~~~~~~~~~~~~~    ~~~~
+threads.c:899:35: note: prefix with the address-of operator to silence this warning
+    if ((libxml_is_threaded)  && (pthread_key_delete != NULL))
+                                  ^
+                                  &
+18 warnings generated.
+threads.c:425:9: warning: comparison of function 'pthread_mutex_lock' not equal to a null pointer is always true [-Wtautological-pointer-compare]
+    if (pthread_mutex_lock != NULL)
+        ^~~~~~~~~~~~~~~~~~    ~~~~
+threads.c:425:9: note: prefix with the address-of operator to silence this warning
+    if (pthread_mutex_lock != NULL)
+        ^
+        &
+threads.c:495:9: warning: comparison of function 'pthread_mutex_unlock' not equal to a null pointer is always true [-Wtautological-pointer-compare]
+    if (pthread_mutex_unlock != NULL)
+        ^~~~~~~~~~~~~~~~~~~~    ~~~~
+threads.c:495:9: note: prefix with the address-of operator to silence this warning
+    if (pthread_mutex_unlock != NULL)
+        ^
+        &
+threads.c:849:14: warning: comparison of function 'pthread_once' not equal to a null pointer is always true [-Wtautological-pointer-compare]
+        if ((pthread_once != NULL) &&
+             ^~~~~~~~~~~~    ~~~~
+threads.c:849:14: note: prefix with the address-of operator to silence this warning
+        if ((pthread_once != NULL) &&
+             ^
+             &
+threads.c:850:14: warning: comparison of function 'pthread_getspecific' not equal to a null pointer is always true [-Wtautological-pointer-compare]
+            (pthread_getspecific != NULL) &&
+             ^~~~~~~~~~~~~~~~~~~    ~~~~
+threads.c:850:14: note: prefix with the address-of operator to silence this warning
+            (pthread_getspecific != NULL) &&
+             ^
+             &
+threads.c:851:14: warning: comparison of function 'pthread_setspecific' not equal to a null pointer is always true [-Wtautological-pointer-compare]
+            (pthread_setspecific != NULL) &&
+             ^~~~~~~~~~~~~~~~~~~    ~~~~
+threads.c:851:14: note: prefix with the address-of operator to silence this warning
+            (pthread_setspecific != NULL) &&
+             ^
+             &
+threads.c:852:14: warning: comparison of function 'pthread_key_create' not equal to a null pointer is always true [-Wtautological-pointer-compare]
+            (pthread_key_create != NULL) &&
+             ^~~~~~~~~~~~~~~~~~    ~~~~
+threads.c:852:14: note: prefix with the address-of operator to silence this warning
+            (pthread_key_create != NULL) &&
+             ^
+             &
+threads.c:853:14: warning: comparison of function 'pthread_key_delete' not equal to a null pointer is always true [-Wtautological-pointer-compare]
+            (pthread_key_delete != NULL) &&
+             ^~~~~~~~~~~~~~~~~~    ~~~~
+threads.c:853:14: note: prefix with the address-of operator to silence this warning
+            (pthread_key_delete != NULL) &&
+             ^
+             &
+threads.c:854:14: warning: comparison of function 'pthread_mutex_init' not equal to a null pointer is always true [-Wtautological-pointer-compare]
+            (pthread_mutex_init != NULL) &&
+             ^~~~~~~~~~~~~~~~~~    ~~~~
+threads.c:854:14: note: prefix with the address-of operator to silence this warning
+            (pthread_mutex_init != NULL) &&
+             ^
+             &
+threads.c:855:14: warning: comparison of function 'pthread_mutex_destroy' not equal to a null pointer is always true [-Wtautological-pointer-compare]
+            (pthread_mutex_destroy != NULL) &&
+             ^~~~~~~~~~~~~~~~~~~~~    ~~~~
+threads.c:855:14: note: prefix with the address-of operator to silence this warning
+            (pthread_mutex_destroy != NULL) &&
+             ^
+             &
+threads.c:856:14: warning: comparison of function 'pthread_mutex_lock' not equal to a null pointer is always true [-Wtautological-pointer-compare]
+            (pthread_mutex_lock != NULL) &&
+             ^~~~~~~~~~~~~~~~~~    ~~~~
+threads.c:856:14: note: prefix with the address-of operator to silence this warning
+            (pthread_mutex_lock != NULL) &&
+             ^
+             &
+threads.c:857:14: warning: comparison of function 'pthread_mutex_unlock' not equal to a null pointer is always true [-Wtautological-pointer-compare]
+            (pthread_mutex_unlock != NULL) &&
+             ^~~~~~~~~~~~~~~~~~~~    ~~~~
+threads.c:857:14: note: prefix with the address-of operator to silence this warning
+            (pthread_mutex_unlock != NULL) &&
+             ^
+             &
+threads.c:858:14: warning: comparison of function 'pthread_cond_init' not equal to a null pointer is always true [-Wtautological-pointer-compare]
+            (pthread_cond_init != NULL) &&
+             ^~~~~~~~~~~~~~~~~    ~~~~
+threads.c:858:14: note: prefix with the address-of operator to silence this warning
+            (pthread_cond_init != NULL) &&
+             ^
+             &
+threads.c:859:14: warning: comparison of function 'pthread_cond_destroy' not equal to a null pointer is always true [-Wtautological-pointer-compare]
+            (pthread_cond_destroy != NULL) &&
+             ^~~~~~~~~~~~~~~~~~~~    ~~~~
+threads.c:859:14: note: prefix with the address-of operator to silence this warning
+            (pthread_cond_destroy != NULL) &&
+             ^
+             &
+threads.c:860:14: warning: comparison of function 'pthread_cond_wait' not equal to a null pointer is always true [-Wtautological-pointer-compare]
+            (pthread_cond_wait != NULL) &&
+             ^~~~~~~~~~~~~~~~~    ~~~~
+threads.c:860:14: note: prefix with the address-of operator to silence this warning
+            (pthread_cond_wait != NULL) &&
+             ^
+             &
+threads.c:861:14: warning: comparison of function 'pthread_equal' not equal to a null pointer is always true [-Wtautological-pointer-compare]
+            (pthread_equal != NULL) &&
+             ^~~~~~~~~~~~~    ~~~~
+threads.c:861:14: note: prefix with the address-of operator to silence this warning
+            (pthread_equal != NULL) &&
+             ^
+             &
+threads.c:862:14: warning: comparison of function 'pthread_self' not equal to a null pointer is always true [-Wtautological-pointer-compare]
+            (pthread_self != NULL) &&
+             ^~~~~~~~~~~~    ~~~~
+threads.c:862:14: note: prefix with the address-of operator to silence this warning
+            (pthread_self != NULL) &&
+             ^
+             &
+threads.c:862:14: note: suffix with parentheses to turn this into a function call
+            (pthread_self != NULL) &&
+             ^
+                         ()
+threads.c:863:14: warning: comparison of function 'pthread_cond_signal' not equal to a null pointer is always true [-Wtautological-pointer-compare]
+            (pthread_cond_signal != NULL)) {
+             ^~~~~~~~~~~~~~~~~~~    ~~~~
+threads.c:863:14: note: prefix with the address-of operator to silence this warning
+            (pthread_cond_signal != NULL)) {
+             ^
+             &
+threads.c:899:35: warning: comparison of function 'pthread_key_delete' not equal to a null pointer is always true [-Wtautological-pointer-compare]
+    if ((libxml_is_threaded)  && (pthread_key_delete != NULL))
+                                  ^~~~~~~~~~~~~~~~~~    ~~~~
+threads.c:899:35: note: prefix with the address-of operator to silence this warning
+    if ((libxml_is_threaded)  && (pthread_key_delete != NULL))
+                                  ^
+                                  &
+18 warnings generated.
+  CC       c14n.lo
+  CC       xmlstring.lo
+  CC       buf.lo
+  CC       xmlregexp.lo
+  CC       xmlschemas.lo
+  CC       xmlschemastypes.lo
+  CC       xmlunicode.lo
+  CC       xmlreader.lo
+  CC       relaxng.lo
+  CC       dict.lo
+  CC       SAX2.lo
+  CC       xmlwriter.lo
+  CC       legacy.lo
+  CC       chvalid.lo
+  CC       pattern.lo
+  CC       xmlsave.lo
+  CC       xmlmodule.lo
+  CC       schematron.lo
+  CC       xzlib.lo
+  CCLD     libxml2.la
+  CC       testdso.lo
+  CCLD     testdso.la
+  CC       xmllint.o
+  CCLD     xmllint
+ld: warning: ignoring file /usr/local/Cellar/xz/5.2.3/lib/liblzma.dylib, file was built for x86_64 which is not the architecture being linked (i386): /usr/local/Cellar/xz/5.2.3/lib/liblzma.dylib
+Undefined symbols for architecture i386:
+  "_lzma_auto_decoder", referenced from:
+      _xz_head in libxml2.a(xzlib.o)
+  "_lzma_code", referenced from:
+      _xz_decomp in libxml2.a(xzlib.o)
+  "_lzma_end", referenced from:
+      ___libxml2_xzclose in libxml2.a(xzlib.o)
+  "_lzma_properties_decode", referenced from:
+      _is_format_lzma in libxml2.a(xzlib.o)
+ld: symbol(s) not found for architecture i386
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[2]: *** [xmllint] Error 1
+make[1]: *** [all-recursive] Error 1
+make: *** [all] Error 2

@@ -1,0 +1,13 @@
+prefix=/Users/jlimcaco/work/design-system-repo/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.8.2/ports/x86_64-apple-darwin17/libxml2/2.9.7
+exec_prefix=${prefix}
+libdir=/Users/jlimcaco/work/design-system-repo/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.8.2/ports/x86_64-apple-darwin17/libxml2/2.9.7/lib
+includedir=${prefix}/include
+modules=1
+
+Name: libXML
+Version: 2.9.7
+Description: libXML library version2.
+Requires:
+Libs: -L${libdir} -lxml2
+Libs.private:  -lpthread -lz -L/usr/local/Cellar/xz/5.2.3/lib -llzma  -liconv -lm  
+Cflags: -I${includedir}/libxml2 

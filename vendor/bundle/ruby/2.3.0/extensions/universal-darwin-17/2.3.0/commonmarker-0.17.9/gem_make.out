@@ -1,0 +1,70 @@
+current directory: /Users/jlimcaco/work/design-system-repo/vendor/bundle/ruby/2.3.0/gems/commonmarker-0.17.9/ext/commonmarker
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/bin/ruby -r ./siteconf20180330-49299-8m6oiu.rb extconf.rb
+creating Makefile
+
+current directory: /Users/jlimcaco/work/design-system-repo/vendor/bundle/ruby/2.3.0/gems/commonmarker-0.17.9/ext/commonmarker
+make "DESTDIR=" clean
+
+current directory: /Users/jlimcaco/work/design-system-repo/vendor/bundle/ruby/2.3.0/gems/commonmarker-0.17.9/ext/commonmarker
+make "DESTDIR="
+compiling xml.c
+compiling strikethrough.c
+compiling cmark.c
+compiling man.c
+compiling buffer.c
+compiling autolink.c
+compiling blocks.c
+compiling commonmarker.c
+In file included from commonmarker.c:3:
+In file included from ./houdini.h:9:
+./config.h:8:9: warning: 'HAVE_STDBOOL_H' macro redefined [-Wmacro-redefined]
+#define HAVE_STDBOOL_H
+        ^
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/include/ruby-2.3.0/universal-darwin17/ruby/config.h:26:9: note: previous definition is here
+#define HAVE_STDBOOL_H 1
+        ^
+1 warning generated.
+In file included from commonmarker.c:3:
+In file included from ./houdini.h:9:
+./config.h:8:9: warning: 'HAVE_STDBOOL_H' macro redefined [-Wmacro-redefined]
+#define HAVE_STDBOOL_H
+        ^
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/include/ruby-2.3.0/universal-darwin17/ruby/config.h:26:9: note: previous definition is here
+#define HAVE_STDBOOL_H 1
+        ^
+1 warning generated.
+compiling cmark_ctype.c
+compiling table.c
+compiling inlines.c
+compiling latex.c
+compiling houdini_href_e.c
+compiling syntax_extension.c
+compiling ext_scanners.c
+compiling tagfilter.c
+compiling houdini_html_e.c
+compiling plaintext.c
+compiling utf8.c
+compiling references.c
+compiling render.c
+compiling iterator.c
+compiling arena.c
+compiling linked_list.c
+compiling commonmark.c
+compiling map.c
+compiling html.c
+compiling plugin.c
+compiling scanners.c
+compiling footnotes.c
+compiling houdini_html_u.c
+compiling registry.c
+compiling node.c
+compiling core-extensions.c
+linking shared-object commonmarker/commonmarker.bundle
+ld: warning: directory not found for option '-L/BuildRoot/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.Internal.sdk/usr/local/libressl/lib'
+ld: warning: directory not found for option '-L/BuildRoot/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.Internal.sdk/usr/local/lib'
+ld: warning: directory not found for option '-L/BuildRoot/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.Internal.sdk/usr/local/libressl/lib'
+ld: warning: directory not found for option '-L/BuildRoot/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.Internal.sdk/usr/local/lib'
+
+current directory: /Users/jlimcaco/work/design-system-repo/vendor/bundle/ruby/2.3.0/gems/commonmarker-0.17.9/ext/commonmarker
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 commonmarker.bundle ./.gem.20180330-49299-167hkbf/commonmarker
