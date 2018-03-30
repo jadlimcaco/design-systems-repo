@@ -8,7 +8,7 @@ permalink: /books/
 	<a class="block block-books" href="{{ books.link }}" title="{{ books.title }}" target="_blank">
 
 		<div class="img-wrap">
-			<img src="{{ books.image | relative_url }}" alt="{{ books.title }}" width="600" height="600" />
+			<img src="{{ site.baseurl }}/{{ books.image }}" alt="{{ books.title }}" width="600" height="600" />
 		</div>
 		<div class="content">
 			<h3>{{ books.author }}</h3>
