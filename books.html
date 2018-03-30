@@ -1,0 +1,19 @@
+---
+layout: page-books
+title: Books
+---
+{% assign book = site.books | sort: 'title' %}
+{% for books in book %}
+	<a class="block block-books" href="{{ books.link }}" title="{{ books.title }}" target="_blank">
+
+		<div class="img-wrap">
+			<img src="{{ books.image }}" alt="title="{{ books.title }}" width="600" height="600" />
+		</div>
+		<div class="content">
+			<h3>{{ books.author }}</h3>
+			<h2>{{ books.title }}</h2>
+			<p class="clamp">{{ books.description }}</p>
+		</div>
+
+	</a>
+{% endfor %}
