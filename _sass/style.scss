@@ -50,6 +50,7 @@ p {
   line-height: 2.4rem;
   margin-bottom: 1.6rem;
   text-rendering: optimizeLegibility;
+  max-width: 64rem;
 }
 
 /* OTHER TAGS
@@ -152,12 +153,34 @@ blockquote p  {
 /*============================================================
 CONTENT
 ============================================================*/
+.site-title {
+  margin-bottom: 0;
+  float: left;
+}
+
+.site-nav {
+  float: right;
+
+  .nav-trigger {
+      display: none;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  a {
+    margin-left: 2rem;
+  }
+
+}
+
 .site-header {
   width: 100%;
   display: block;
   background: #13161F;
   margin-bottom: 6rem;
-  padding: 1rem;
+  padding: 2rem;
 }
 
 .site-header a {
