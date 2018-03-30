@@ -20,9 +20,9 @@
 
         <div class="trigger">
           <ul>
-            <li><a href="{{ "/design-systems" | relative_url }}" {% if page.url == "/design-systems/" %}class="active"{% endif %}>Design Systems</a></li>
-            <li><a href="{{ "/books" | relative_url }}" {% if page.url == "/books/" %}class="active"{% endif %}>Books</a></li>
-            <li><a href="{{ "/about" | relative_url }}" {% if page.url == "/about/" %}class="active"{% endif %}>About</a></li>
+            <li><a href="{{ site.baseurl }}{{ "/design-systems" }}" {% if page.url == "/design-systems/" %}class="active"{% endif %}>Design Systems</a></li>
+            <li><a href="{{ site.baseurl }}{{ "/books" }}" {% if page.url == "/books/" %}class="active"{% endif %}>Books</a></li>
+            <li><a href="{{ site.baseurl }}{{ "/about" }}" {% if page.url == "/about/" %}class="active"{% endif %}>About</a></li>
           </ul>
         </div>
       </nav>
