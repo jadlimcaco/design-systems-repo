@@ -1,0 +1,16 @@
+---
+layout: page-articles
+title: Articles
+permalink: /articles/
+---
+{% assign article = site.articles | sort: 'title' %}
+{% for articles in article %}
+	<a class="block block-ds{% for item in articles.tags %} {{ item }}{% endfor %}" href="{{ articles.link }}" title="{{ articles.title }}" target="_blank">
+		<div class="content">
+			<h3>{{ articles.author }}</h3>
+			<h2>{{ articles.title }}</h2>
+			<p class="clamp">{{ articles.description }}</p>
+		</div>
+
+	</a>
+{% endfor %}

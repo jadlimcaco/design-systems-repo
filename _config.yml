@@ -29,6 +29,7 @@ plugins:
 
 collections:
   - tools
+  - articles
   - design-systems
   - books
   - talks

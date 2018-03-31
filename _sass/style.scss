@@ -46,8 +46,8 @@ h4 { font-size: 1.6rem; }
 /* PARAGRAPH
 ---------------------------------------- */
 p {
-  font-size: 1.6rem;
-  line-height: 2.4rem;
+  font-size: 1.8rem;
+  line-height: 1.5;
   margin-bottom: 1.6rem;
   text-rendering: optimizeLegibility;
   max-width: 64rem;
@@ -75,64 +75,6 @@ a {
   outline: 0;
 }
 a:hover, a:focus { color: #1069ad; }
-
-/* CODE
----------------------------------------- */
-code {
-  font-family: Consolas, Courier, monospace;
-  color: #333;
-  background-color: #efeded;
-  border: solid 1px #e0e0e0;
-  display: block;
-}
-
-/* LISTS
-Add .list to ul or ol to display
-list with bullets and numbers.
----------------------------------------- */
-ul.list,
-ol.list {
-  font-size: 1.6rem;
-  line-height: 1.6;
-  margin: 0 0 1.6rem;
-  list-style-position: outside;
-}
-
-/* Unordered Lists */
-ul.list { 
-  margin-left: 1.6rem;
-  list-style-type: disc;
-}
-ul.list li ul             { margin-left: 1.6rem; }
-ul.list li ol             { margin-left: 2.25rem; }
-
-/* Ordered Lists */
-ol.list {
-  margin-left: 2.2rem;
-  list-style-type: decimal;
-}
-ol.list li ul             { margin: 0 0 0 1.6rem; }
-ol.list li ol             { margin: 0 0 0 2.2rem; }
-
-/* BLOCKQUOTES
----------------------------------------- */
-blockquote {
-  margin: 0 0 1.25rem;
-  padding: 0.5625rem 1.25rem 0 1.1875rem;
-  border-left: solid 1px #ddd;
-}
-blockquote cite {
-  display: block;
-  font-size: 0.8125rem;
-  color: #555; }
-blockquote cite:before     { content: "\2014 \0020"; }
-blockquote cite a,
-blockquote cite a:visited  { color: #555555; }
-blockquote,
-blockquote p  {
-  line-height: 1.6;
-  color: #6f6f6f;
-}
 
 /* SELECTION
 ---------------------------------------- */
@@ -189,8 +131,9 @@ CONTENT
   justify-content: space-between;
   align-items: center;
   background: #13161F;
-  margin-bottom: 6rem;
   padding: 1.2rem 2.4rem;
+  position: fixed;
+  z-index: 100;
 }
 
 .site-header a {
@@ -199,13 +142,21 @@ CONTENT
 }
 
 .post-header {
+  width: 100%;
+  margin: 0 auto 8rem;
+  background: #fff;
+  border-bottom: solid 1px #efefef;
+}
+
+.post-head-wrap {
+  max-width: 104rem;
+  width: 100%;
+  padding: 16rem 2.4rem 6rem;
+  margin: 0 auto;
   display:flex;
   justify-content: space-between;
   align-items: center;
   align-content: flex-start;
-  max-width:112rem;
-  width: 100%;
-  margin: 0 auto 8rem;
 }
 
 .site-title img {
@@ -217,13 +168,12 @@ CONTENT
 .illustration {
   width: 22rem;
   height: auto;
+  margin-left: 4rem;
 }
 
 .page-content { 
-  max-width: 140rem;
   width: 100%;
   margin: 0 auto;
-  padding: 0 2.4rem;
 }
 
 .post-content {
@@ -234,7 +184,10 @@ CONTENT
   flex-direction: row;
   flex-wrap: wrap;
   flex-flow: row wrap;
-  height: 100%;
+  max-width: 140rem;
+  width: 100%;
+  padding: 0 2.4rem;
+  margin: 0 auto;
 }
 
 h1.post-title {
@@ -265,7 +218,7 @@ h1.post-title {
   box-shadow: 0 1px 1px 1px rgba(10, 16, 34, .11);
   width: 30%;
   overflow: hidden;
-  transition: box-shadow ease-in .18s;
+  transition: all ease-in .18s;
   color: #1b1b1b;
 }
 
@@ -295,7 +248,8 @@ h1.post-title {
 
 .block p {
   margin: 0;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
+  line-height: 1.65;
   opacity: 0.85;
 }
 
@@ -328,6 +282,44 @@ h1.post-title {
   text-align: center;
 }
 
+.filter {
+  width: 100%;
+  max-width: 140rem;
+  text-align: center;
+  padding: 0 2.4rem;
+  margin: -2rem auto 6rem;
+}
+
+.filter li { display: inline; }
+
+.filter li.active a {
+  background: #804BB5;
+  color: #fff;
+  box-shadow: none;
+}
+
+.filter li a {
+  display: inline-block;
+  background: #fff;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 2px 10px 0 rgba(0,0,0,.05);
+  box-shadow: 0 2px 10px 0 rgba(0,0,0,.05);
+  color: #1b1b1b;
+  display: block;
+  display: inline-block;
+  font-size: 1.3rem;
+  font-weight: 500;
+  padding: .8rem 1.2rem;
+  min-width: 13rem;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 4px;
+  margin-bottom: 4px;
+}
+
+.fliter li a:last-child { margin-right: 0; }
+
 
 /*============================================================
 RESPONSIVE
@@ -344,16 +336,16 @@ RESPONSIVE
 ---------------------------------------- */
 @media only screen and (min-width: 720px) and (max-width: 959px) {
 
-html                      { font-size: 59%; }
+html { font-size: 59%; }
 
   .post .block,
   .post .post-content:after {
-      width: 46%;
+    width: 46%;
   }
 
   .post-books .block,
   .post-books .post-content:after {
-      width: 30%;
+    width: 30%;
   }
 
 }
@@ -363,16 +355,36 @@ html                      { font-size: 59%; }
 ---------------------------------------- */
 @media only screen and (max-width: 719px) {
 
-html                      { font-size: 57%; }
+html { font-size: 57%; }
 
   .post-title {
     text-align: center;
   }
 
+  .site-header .wrapper {
+    position: relative;
+  }
+
+
+  .post-header {
+    margin-bottom: 4rem;
+  }
+
+  .post-head-wrap {
+    flex-direction: column;
+    padding: 4rem 2.4rem;
+  }
+
+  .illustration {
+    order: -1;
+    margin-bottom: 2rem;
+    margin-left: 0;
+   }
+
   .post .block,
   .post .post-content:after {
-      width: 100%;
-      margin-bottom: 2.4rem;
+    width: 100%;
+    margin-bottom: 2.4rem;
   }
 
   .post-books .post-content {
