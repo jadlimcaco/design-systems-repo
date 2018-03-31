@@ -1,0 +1,20 @@
+---
+layout: page-talks
+title: Talks
+permalink: /talks/
+---
+{% assign talk = site.talks | sort: 'title' %}
+{% for talks in talk %}
+	<a class="block block-talks" href="{{ talks.link }}" title="{{ talks.title }}" target="_blank">
+
+		<div class="img-wrap">
+			<img src="{{ site.baseurl }}/{{ talks.image }}" alt="{{ talks.title }}" width="800" height="450" />
+		</div>
+		<div class="content">
+			<h3>{{ talks.speaker }}</h3>
+			<h2>{{ talks.title }}</h2>
+			<p class="clamp">{{ talks.description }}</p>
+		</div>
+
+	</a>
+{% endfor %}
