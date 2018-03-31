@@ -2,19 +2,21 @@
 layout: page-books
 title: Books
 permalink: /books/
+description: A list of good books on the subject of design systems. If you have any recommendations, please send me a tweet at @jadlimcaco and I will add it to the list.
 ---
-{% assign book = site.books | sort: 'title' %}
-{% for books in book %}
-	<a class="block block-books" href="{{ books.link }}" title="{{ books.title }}" target="_blank">
+{%- assign book = site.books | sort: 'title' %}
+{%- for books in book %}
+            <!-- Block -->
+            <a class="block block-books" href="{{ books.link }}" title="{{ books.title }}" target="_blank">
 
-		<div class="img-wrap">
-			<img src="{{ site.baseurl }}/{{ books.image }}" alt="{{ books.title }}" width="600" height="600" />
-		</div>
-		<div class="content">
-			<h3>{{ books.author }}</h3>
-			<h2>{{ books.title }}</h2>
-			<p class="clamp">{{ books.description }}</p>
-		</div>
+              <div class="img-wrap">
+                <img src="{{ site.baseurl }}/{{ books.image }}" alt="{{ books.title }}" width="600" height="600" />
+              </div>
+              <div class="content">
+                <h3>{{ books.author }}</h3>
+                <h2>{{ books.title }}</h2>
+                <p class="clamp">{{ books.description }}</p>
+              </div>
 
-	</a>
+            </a>
 {% endfor %}

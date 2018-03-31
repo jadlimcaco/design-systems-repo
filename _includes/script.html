@@ -1,0 +1,39 @@
+
+    <script>
+      // CLAMP JS
+      // shave('.post-ds .clamp', 80);
+      // shave('.post-books .clamp', 104);
+
+      // LAZY LOAD
+      echo.init({
+        offset: 2500,
+        throttle: 250,
+        unload: false,
+        callback: function (element, op) {
+        }
+      });
+    {% if page.url == "/articles/" %}
+      // TAG FILTERS
+      $(document).ready(function() {
+        $('.filter li a').click(function() {
+          // fetch the class of the clicked item
+          var ourClass = $(this).attr('class');
+          // reset the active class on all the buttons
+          $('.filter li').removeClass('active');
+          // update the active state on our clicked button
+          $(this).parent().addClass('active');
+          if(ourClass == 'all') {
+            // show all our items
+            $('.holder').children('.block').show();
+          }
+          else {
+            // hide all elements that don't share ourClass
+            $('.holder').children('.block:not(.' + ourClass + ')').hide();
+            // show all elements that do share ourClass
+            $('.holder').children('.block.' + ourClass).show();
+          }
+          return false;
+        });
+      });
+    {% endif %}
+    </script>

@@ -2,19 +2,21 @@
 layout: page-talks
 title: Talks
 permalink: /talks/
+description: Helpful talks and presentations from the best in the industry. Learn more about the innovation that is happening in design systems and design tooling.
 ---
-{% assign talk = site.talks | sort: 'title' %}
-{% for talks in talk %}
-	<a class="block block-talks" href="{{ talks.link }}" title="{{ talks.title }}" target="_blank">
+{%- assign talk = site.talks | sort: 'title' %}
+{%- for talks in talk %}
+            <!-- Block -->
+            <a class="block block-talks" href="{{ talks.link }}" title="{{ talks.title }}" target="_blank">
 
-		<div class="img-wrap">
-			<img src="{{ site.baseurl }}/{{ talks.image }}" alt="{{ talks.title }}" width="800" height="450" />
-		</div>
-		<div class="content">
-			<h3>{{ talks.speaker }}</h3>
-			<h2>{{ talks.title }}</h2>
-			<p class="clamp">{{ talks.description }}</p>
-		</div>
+              <div class="img-wrap">
+                <img src="{{ site.baseurl }}/{{ talks.image }}" alt="{{ talks.title }}" width="800" height="450" />
+              </div>
+              <div class="content">
+                <h3>{{ talks.speaker }}</h3>
+                <h2>{{ talks.title }}</h2>
+                <p class="clamp">{{ talks.description }}</p>
+              </div>
 
-	</a>
+            </a>
 {% endfor %}

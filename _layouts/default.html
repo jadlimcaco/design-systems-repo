@@ -1,49 +1,21 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-  {%- include head.html -%}
+{%- include head.html %}
 
   <body>
-
-    {%- include header.html -%}
-
+  {% include header.html %}
+    <!-- Content -->
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        {{ content }}
+
+{{ content }}
       </div>
     </main>
 
-    {%- include footer.html -%}
+{% include footer.html %}
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <!-- <script src="{{ "js/clamp.js" | relative_url }}"></script>-->
     <script src="{{ site.baseurl }}/{{ "js/lazyload.js" }}"></script>
-    {% include lazyload.html %}
-    {% if page.url == "/articles/" %}
-    <script>   
-      $(document).ready(function() {
-        $('.filter li a').click(function() {
-          // fetch the class of the clicked item
-          var ourClass = $(this).attr('class');
-          // reset the active class on all the buttons
-          $('.filter li').removeClass('active');
-          // update the active state on our clicked button
-          $(this).parent().addClass('active');
-          if(ourClass == 'all') {
-            // show all our items
-            $('.holder').children('.block').show();
-          }
-          else {
-            // hide all elements that don't share ourClass
-            $('.holder').children('.block:not(.' + ourClass + ')').hide();
-            // show all elements that do share ourClass
-            $('.holder').children('.block.' + ourClass).show();
-          }
-          return false;
-        });
-      });
-    </script>
-    {% endif %}
-
+    {%- include script.html %}
   </body>
-
 </html>
