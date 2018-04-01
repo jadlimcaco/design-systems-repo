@@ -387,31 +387,26 @@ html { font-size: 57%; }
     margin: 0 0 0 0;
     background: none;
     border: none;
-  }
-  .pull span {
-    display: block;
-  }
-  .lines-button {
     padding: 3.2rem 2.4rem;
-    transition: all ease-in-out 0.24s;
+    transition: all ease-in 0.24s;
     cursor: pointer;
     user-select: none;
   }
   .lines {
-    display: inline-block;
+    display: block;
     width: 28px;
     height: 3px;
     background: #fff;
-    transition: all ease-in-out 0.24s;
+    transition: all ease-in 0.24s;
     position: relative;
   }
   .lines:before,
   .lines:after {
-    display: inline-block;
+    display: block;
     width: 24px;
     height: 3px;
     background: #fff;
-    transition: all ease-in-out 0.24s;
+    transition: all ease-in 0.24s;
     position: absolute;
     right: 0;
     content: '';
@@ -433,21 +428,21 @@ html { font-size: 57%; }
   .lines:after {
     top: -8px;
   }
-  .lines-button.x.close .lines {
+  .lines-button.close .lines {
     background: transparent;
   }
-  .lines-button.x.close .lines:before,
-  .lines-button.x.close .lines:after {
+  .lines-button.close .lines:before,
+  .lines-button.close .lines:after {
     top: 0;
     width: 20px;
     -webkit-transform-origin: 50% 50%;
     transform-origin: 50% 50%;
   }
-  .lines-button.x.close .lines:before {
+  .lines-button.close .lines:before {
     -webkit-transform: rotate3d(0, 0, 1, 45deg);
     transform: rotate3d(0, 0, 1, 45deg);
   }
-  .lines-button.x.close .lines:after {
+  .lines-button.close .lines:after {
     -webkit-transform: rotate3d(0, 0, 1, -45deg);
     transform: rotate3d(0, 0, 1, -45deg);
   }
