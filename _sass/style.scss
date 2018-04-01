@@ -259,7 +259,7 @@ h1.post-title {
   max-width: 140rem;
   text-align: center;
   padding: 0 2.4rem;
-  margin: -2rem auto 6rem;
+  margin: -3.2rem auto 6rem;
 }
 .filter li {
   display: inline;
@@ -273,19 +273,17 @@ h1.post-title {
   display: inline-block;
   background: #fff;
   border-radius: 4px;
-  -webkit-box-shadow: 0 2px 10px 0 rgba(0,0,0,.05);
   box-shadow: 0 2px 10px 0 rgba(0,0,0,.05);
   color: #1b1b1b;
   display: block;
   display: inline-block;
   font-size: 1.3rem;
-  font-weight: 500;
-  padding: .8rem 1.2rem;
-  min-width: 13rem;
+  padding: .8rem;
+  min-width: 12rem;
   position: relative;
   text-align: center;
   text-decoration: none;
-  margin-right: 4px;
+  margin-right: 6px;
   margin-bottom: 4px;
 }
 .filter li a:last-child { margin-right: 0; }
@@ -448,8 +446,11 @@ html { font-size: 57%; }
   }
   .post-head-wrap {
     flex-direction: column;
-    padding: 12rem 2.4rem 4rem;
+    padding: 12rem 2.4rem 2.4rem;
     align-items: center;
+  }
+  .post-header {
+    margin: 0 auto 4rem;
   }
   .illustration {
     order: -1;
@@ -465,6 +466,12 @@ html { font-size: 57%; }
   }
   .post-books .post-content {
     justify-content: center;
+  }
+  .filter {
+    margin: 0 auto 1.2rem;
+    white-space: nowrap;
+    overflow-y: scroll;
+    padding-bottom:2rem;
   }
 
 }
