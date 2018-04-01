@@ -19,7 +19,7 @@ $(document).ready(function() {
 
         $(pull).on('click', function(e) {
             e.preventDefault();
-            menu.slideToggle();
+            menu.slideToggle(240);
         });
 
         $(window).resize(function(){
