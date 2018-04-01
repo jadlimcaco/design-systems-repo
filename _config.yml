@@ -24,6 +24,9 @@ github_username:  jadlimcaco
 
 # Build settings
 markdown: kramdown
+sass:
+  sass_dir: _sass
+  style: compressed
 plugins:
 
 collections:
