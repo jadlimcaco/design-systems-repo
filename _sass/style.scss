@@ -93,63 +93,48 @@ a:hover, a:focus { color: #1069ad; }
 ;
 
 /*============================================================
-RESPONSIVE NAV
+CONTENT
 ============================================================*/
 .pull {
   display: none;
   text-indent: -9999px;
 }
-.nav .fa-angle-right { display: none; }
-
-/*============================================================
-CONTENT
-============================================================*/
-
 
 .site-title {
   margin-bottom: 0;
 
 }
 
-.site-nav {
-
-
-  .nav-trigger {
-      display: none;
-  }
-
-  .menu-icon {
-    display: none;
-  }
-
-  li {
-    display: inline-block;
-  }
-
-  a {
-    margin-left: 4rem;
-  }
-
-  a.active {
-    color: #73FFE1;
-  }
-
+.site-header {
+  background: #13161F;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
 }
 
 .site-header .wrapper {
   width: 100%;
+  max-width: 140rem;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #13161F;
   padding: 1.2rem 2.4rem;
-  position: fixed;
-  z-index: 100;
+  overflow: hidden;
 }
 
-.site-header a {
-  color: #fff;
+.nav { text-align: center; }
+.nav li { display:inline; }
+.nav li a {
   display: inline-block;
+  color: #fff;
+  margin-left: 4rem;
+  font-size: 1.8rem;
+}
+.nav li a.active { color: #73FFE1; }
+
+.logo-sm {
+  display:none;
 }
 
 .post-header {
@@ -329,7 +314,7 @@ h1.post-title {
   margin-bottom: 4px;
 }
 
-.fliter li a:last-child { margin-right: 0; }
+.filter li a:last-child { margin-right: 0; }
 
 
 /*============================================================
@@ -368,6 +353,10 @@ html { font-size: 59%; }
 
 html { font-size: 57%; }
 
+  .site-title img { width:12rem ;}
+  .logo-lg { display:none; }
+  .logo-sm { display: inline-block; }
+
    /* Responsive Nav */
   .site-header .wrapper {
     display: block;
@@ -397,7 +386,7 @@ html { font-size: 57%; }
 
    .nav                      { text-align:left; padding-top:2.4rem; clear:both; width:100%; height:100vh; }
    .nav li                   { display:block; border-bottom:solid 1px rgba(255,255,255,.03); margin:0; padding:0; }
-   .nav li a                 { display:block; padding:3.2rem 2.4rem; font-size:2.4rem; color:#fff; margin:0; }
+   .nav li a                 { display:block; padding:2rem 2.4rem; font-size:2.4rem; color:#fff; margin:0; }
    .nav li:last-child        { border:none; }
    .nav .fa-angle-right      { display:block; float:right; margin-top:1px; }
 
