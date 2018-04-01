@@ -288,7 +288,7 @@ RESPONSIVE
 ---------------------------------------- */
 @media only screen and (min-width: 720px) and (max-width: 959px) {
 
-html { font-size: 59%; }
+  html { font-size: 59%; }
 
   .post-content {
     display: grid;
@@ -302,7 +302,7 @@ html { font-size: 59%; }
 ---------------------------------------- */
 @media only screen and (max-width: 719px) {
 
-html { font-size: 57%; }
+  html { font-size: 57%; }
 
   .post-content {
     display: grid;
@@ -453,4 +453,19 @@ html { font-size: 57%; }
     padding-bottom:2rem;
   }
 
+}
+
+/* MOBILE (576px or Less)
+---------------------------------------- */
+@media only screen and (max-width: 576px) {
+
+  .post-content {
+    display: block !important;
+  }
+
+  .block {
+    margin-bottom: 2.4rem;
+    width: 100%;
+    display: block; 
+  }
 }
