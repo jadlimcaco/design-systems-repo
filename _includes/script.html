@@ -15,8 +15,7 @@
     {% if page.url == "/articles/" %}
       // TAG FILTERS
       $(document).ready(function() {
-        $('.filter li a').click(function(event){
-        event.preventDefault();
+        $('.filter li a').click(function() {
           // fetch the class of the clicked item
           var ourClass = $(this).attr('class');
           // reset the active class on all the buttons

@@ -232,12 +232,18 @@ h1.post-title {
   text-overflow: ellipsis;
 }
 .img-wrap {
+  border-radius: 6px 6px 0 0;
   width: 100%;
   overflow: hidden;
   display: block;
   border-bottom: solid 1px #f1f1f1;
   line-height: 0;
   text-align: center;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -webkit-mask-image: -webkit-radial-gradient(white, black); 
 }
 .filter {
   width: 100%;
