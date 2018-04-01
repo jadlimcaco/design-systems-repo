@@ -162,46 +162,31 @@ CONTENT
   margin: 0 auto;
 }
 .post-content {
-  display: flex;
-  align-self: stretch;
-  justify-content: space-between;
-  align-content: stretch;
-  flex-direction: row;
-  flex-wrap: wrap;
-  flex-flow: row wrap;
+  display: grid;
+  grid-gap: 4rem;
+  grid-template-columns: repeat(auto-fill,minmax(40rem, 1fr));
+  grid-column-gap: 4rem;
+  grid-auto-rows: 1fr;
   max-width: 140rem;
   width: 100%;
   padding: 0 2.4rem;
-  margin: 0 auto;
+  margin: 0 auto 6rem;
 }
+.post-books .post-content {
+    display: grid;
+    grid-gap: 4rem;
+    grid-template-columns: repeat(auto-fill,minmax(24rem, 1fr));
+  }
 h1.post-title {
   margin-bottom: 2rem;
 }
-.post .post-content:after {
-  content: "";
-  width: 30%;
-}
-.post-books .post-content:after {
-  content: "";
-  width: 22%;
-}
-.post-books .post-content:before {
-  content: "";
-  width: 22%;
-  order: 1;
-}
 .block {
   border-radius: 6px;
-  margin-bottom: 6.4rem;
   background: #fff;
   box-shadow: 0 1px 1px 1px rgba(10, 16, 34, .11);
-  width: 30%;
   overflow: hidden;
   transition: all ease-in .18s;
   color: #1b1b1b;
-}
-.block-books {
-  width: 22%;
 }
 .block:hover,
 .block:focus {
@@ -305,24 +290,25 @@ RESPONSIVE
 
 html { font-size: 59%; }
 
-  .post .block,
-  .post .post-content:after {
-    width: 46%;
-  }
-
-  .post-books .block,
-  .post-books .post-content:after {
-    width: 30%;
+  .post-content {
+    display: grid;
+    grid-gap: 2.4rem;
+    grid-template-columns: repeat(auto-fill,minmax(30rem, 1fr));
   }
 
 }
-
 
 /* MOBILE (719px or Less)
 ---------------------------------------- */
 @media only screen and (max-width: 719px) {
 
 html { font-size: 57%; }
+
+  .post-content {
+    display: grid;
+    grid-gap: 2.4rem;
+    grid-template-columns: repeat(auto-fill,minmax(30rem, 1fr));
+  }
 
   .site-title img {
     width: 12rem;
@@ -459,18 +445,11 @@ html { font-size: 57%; }
     margin-left: auto;
     margin-right: auto;
    }
-  .post .block,
-  .post .post-content:after {
-    width: 100%;
-    margin-bottom: 2.4rem;
-  }
-  .post-books .post-content {
-    justify-content: center;
-  }
   .filter {
     margin: 0 auto 1.2rem;
     white-space: nowrap;
-    overflow-y: scroll;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
     padding-bottom:2rem;
   }
 
