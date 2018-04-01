@@ -253,7 +253,7 @@ h1.post-title {
   margin: -3.2rem auto 6rem;
 }
 .filter li {
-  display: inline;
+  display: inline-block;
 }
 .filter li.active a {
   background: #804BB5;
@@ -269,7 +269,7 @@ h1.post-title {
   display: block;
   display: inline-block;
   font-size: 1.3rem;
-  padding: .8rem;
+  padding: 1rem;
   min-width: 12rem;
   position: relative;
   text-align: center;
@@ -456,7 +456,9 @@ RESPONSIVE
     white-space: nowrap;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
-    padding-bottom:2rem;
+    padding-bottom:1rem;
+    width: 100%;
+    transform: translate3d(0,0,0);   
   }
 
 }

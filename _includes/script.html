@@ -1,9 +1,5 @@
 
     <script>    
-      // CLAMP JS
-      // shave('.post-ds .clamp', 80);
-      // shave('.post-books .clamp', 104);
-
       // LAZY LOAD
       echo.init({
         offset: 2500,
@@ -15,7 +11,8 @@
     {% if page.url == "/articles/" %}
       // TAG FILTERS
       $(document).ready(function() {
-        $('.filter li a').click(function() {
+        $('.filter li a').click(function(event){
+        event.preventDefault();
           // fetch the class of the clicked item
           var ourClass = $(this).attr('class');
           // reset the active class on all the buttons
