@@ -5,7 +5,7 @@
       <div class="wrapper">
         {%- assign default_paths = site.pages | map: "path" -%}
         {%- assign page_paths = site.header_pages | default: default_paths %}
-        <a class="site-title" rel="author" href="{{ "/" | relative_url }}">
+        <a class="site-title" rel="author" href="{{ "/" | relative_url }}" title="Design Systems Repo">
           <img class="logo-lg" src="{{ "images/dsr-logo.svg" | relative_url }}" width="98" height="98" />
           <img class="logo-sm" src="{{ "images/dsr-logo-small.svg" | relative_url }}" width="180" height="60" />
         </a>
@@ -16,11 +16,11 @@
             <span class="lines"></span>
           </button>
           <ul class="nav">
-            <li><a href="{{ site.baseurl }}{{ "/design-systems/" }}"{% if page.url == "/design-systems/" %} class="active"{% endif %}>Design Systems</a></li>
-            <li><a href="{{ site.baseurl }}{{ "/articles/" }}"{% if page.url == "/articles/" %} class="active"{% endif %}>Articles</a></li>
-            <li><a href="{{ site.baseurl }}{{ "/books/" }}"{% if page.url == "/books/" %} class="active"{% endif %}>Books</a></li>
-            <li><a href="{{ site.baseurl }}{{ "/talks/" }}"{% if page.url == "/talks/" %} class="active"{% endif %}>Talks</a></li>
-            <li><a href="{{ site.baseurl }}{{ "/about/" }}"{% if page.url == "/about/" %} class="active"{% endif %}>About</a></li>
+            <li><a href="{{ site.baseurl }}{{ "/design-systems/" }}"{% if page.url == "/design-systems/" %} class="active"{% endif %} title="Design Systems Gallery">Design Systems</a></li>
+            <li><a href="{{ site.baseurl }}{{ "/articles/" }}"{% if page.url == "/articles/" %} class="active"{% endif %} title="Articles">Articles</a></li>
+            <li><a href="{{ site.baseurl }}{{ "/books/" }}"{% if page.url == "/books/" %} class="active"{% endif %} title="Books">Books</a></li>
+            <li><a href="{{ site.baseurl }}{{ "/talks/" }}"{% if page.url == "/talks/" %} class="active"{% endif %} title="Talks">Talks</a></li>
+            <li><a href="{{ site.baseurl }}{{ "/about/" }}"{% if page.url == "/about/" %} class="active"{% endif %} title="About">About</a></li>
           </ul>
         </nav>
         {%- endif %}
