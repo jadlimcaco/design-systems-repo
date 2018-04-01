@@ -23,7 +23,25 @@
     ================================ -->
     <link rel="shortcut icon" href="{{ site.baseurl }}/images/favicon.ico">
     <link rel="apple-touch-icon" href="{{ site.baseurl }}/images/favicon.png">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Sans:400,400i,600">
     <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+    <script>
+    //<![CDATA[
+
+      WebFontConfig = {
+          google: {
+              families: ['IBM+Plex+Mono|IBM+Plex+Sans:400,400i,600']
+          }
+      };
+
+      (function(d) {
+          var wf = d.createElement('script'),
+              s = d.scripts[0];
+          wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
+          wf.async = true;
+          s.parentNode.insertBefore(wf, s);
+      })(document);
+
+    //]]>
+    </script>
 
   </head>

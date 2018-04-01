@@ -25,7 +25,6 @@ github_username:  jadlimcaco
 # Build settings
 markdown: kramdown
 plugins:
-  - jekyll-seo-tag
 
 collections:
   - tools
