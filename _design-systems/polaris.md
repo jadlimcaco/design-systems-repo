@@ -1,6 +1,6 @@
 ---
 layout: post
-date: January 4, 2018
+date: March 4, 2018
 title: Polaris
 company: Shopify
 link: https://polaris.shopify.com/

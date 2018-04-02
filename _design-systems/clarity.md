@@ -1,6 +1,6 @@
 ---
 layout: post
-date: April 1, 2018
+date: March 31, 2018
 title: Clarity Design System
 company: VMware
 link: https://vmware.github.io/clarity/

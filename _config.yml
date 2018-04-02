@@ -30,11 +30,16 @@ sass:
 plugins:
 
 collections:
-  - tools
-  - articles
-  - design-systems
-  - books
-  - talks
+  tools:
+    output: true
+  articles:
+    output: true
+  design-systems:
+    output: true
+  books:
+    output: true
+  talks:
+    output: true
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
