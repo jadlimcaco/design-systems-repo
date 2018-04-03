@@ -1,6 +1,6 @@
 ---
 layout: post
-date: April 2, 2018
+date: February 2, 2018
 title: Office UI Fabric
 company: Microsoft
 link: https://developer.microsoft.com/en-us/fabric

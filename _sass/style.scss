@@ -72,7 +72,7 @@ hr {
 a {
   color: #2b85cb;
   text-decoration: none;
-  transition: color ease-in-out .22s;
+  transition: color 200ms ease;
 }
 a:hover { color: #1069ad; }
 
@@ -191,11 +191,26 @@ h1.post-title {
 .block {
   border-radius: 6px;
   background: #fff;
-  box-shadow: 0 1px 1px 1px rgba(10, 16, 34, .11);
-  overflow: hidden;
-  transition: all ease-in .18s;
+  box-shadow: 0 1px 1px 1px rgba(10, 16, 34, .08);
   color: #1b1b1b;
   cursor: pointer;
+  position: relative;
+}
+.block::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  top: 0;
+  border-radius: 6px;
+  box-shadow: 0 10px 30px -2px rgba(10, 16, 34, .15);
+  transition: all 0.34s ease;
+  will-change: opacity;
+}
+.block:hover::after {
+  opacity: 1;
 }
 .content-ds .title {
   background-image: linear-gradient(-180deg, #B973FF 0%, #804BB5 100%);
@@ -223,7 +238,7 @@ h1.post-title {
   font-weight: 600;
   opacity: 1;
   cursor: pointer;
-  transition: background ease-in-out 0.2s;
+  transition: background 200ms ease;
 }
 .title:hover .button { 
   background: #53E9C9;
@@ -247,20 +262,13 @@ h1.post-title {
 }
 .block:hover,
 .block:focus {
-  box-shadow: 0 10px 30px -2px rgba(10, 16, 34, .18);
   color: #1b1b1b;
-}
-.block:hover .img-wrap img {
-  opacity:0.85;
-  transform: scale(1.03);
 }
 .block img { 
   border-radius: 6px 6px 0 0;
   width: 100%;
   height: auto;
   -webkit-backface-visibility: hidden;
-  transform: translateZ(0);
-  transition: all ease-in-out .18s;
 }
 .block .content {
   padding:2.4rem 2.8rem 3.2rem;
@@ -298,8 +306,6 @@ h1.post-title {
   text-align: center;
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
-  -webkit-transform: translate3d(0, 0, 0);
-  -moz-transform: translate3d(0, 0, 0);
   -webkit-mask-image: -webkit-radial-gradient(white, black); 
 }
 .filter {
@@ -311,6 +317,7 @@ h1.post-title {
 }
 .filter li {
   display: inline-block;
+  margin-right:2px;
 }
 .filter li.active a {
   background: #804BB5;
@@ -331,10 +338,9 @@ h1.post-title {
   position: relative;
   text-align: center;
   text-decoration: none;
-  margin-right: 6px;
   margin-bottom: 4px;
 }
-.filter li a:last-child { margin-right: 0; }
+.filter li:last-child { margin-right: 0; }
 
 /*============================================================
 RESPONSIVE
@@ -423,7 +429,7 @@ RESPONSIVE
     background: none;
     border: none;
     padding: 3.2rem 2.4rem;
-    transition: all ease-in 0.24s;
+    transition: all 240ms ease;
     cursor: pointer;
     user-select: none;
     outline: 0;
@@ -433,7 +439,7 @@ RESPONSIVE
     width: 28px;
     height: 3px;
     background: #fff;
-    transition: all ease-in 0.24s;
+    transition: all 240ms ease;
     position: relative;
   }
   .lines:before,
@@ -442,7 +448,7 @@ RESPONSIVE
     width: 24px;
     height: 3px;
     background: #fff;
-    transition: all ease-in 0.24s;
+    transition: all 240ms ease;
     position: absolute;
     right: 0;
     content: '';
