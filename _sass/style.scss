@@ -72,7 +72,8 @@ hr {
 a {
   color: #2b85cb;
   text-decoration: none;
-  transition: color 200ms ease;
+  -webkit-transition: color 200ms ease;
+          transition: color 200ms ease;
 }
 a:hover { color: #1069ad; }
 
@@ -195,22 +196,17 @@ h1.post-title {
   color: #1b1b1b;
   cursor: pointer;
   position: relative;
+  -webkit-transition: -webkit-transform 0.2s ease, -webkit-box-shadow 0.2s ease;
+          transition: -webkit-transform 0.2s ease, -webkit-box-shadow 0.2s ease;
+          transition: transform 0.2s ease, box-shadow 0.2s ease;
+          transition: transform 0.2s ease, box-shadow 0.2s ease, -webkit-transform 0.2s ease, -webkit-box-shadow 0.2s ease;
+  will-change: transform, box-shadow;
 }
-.block::after {
-  content: '';
-  position: absolute;
-  z-index: -1;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  top: 0;
-  border-radius: 6px;
-  box-shadow: 0 10px 30px -2px rgba(10, 16, 34, .15);
-  transition: all 0.34s ease;
-  will-change: opacity;
-}
-.block:hover::after {
-  opacity: 1;
+.block:hover {
+  -webkit-box-shadow: 0 16px 32px 0 rgba(10, 16, 34,0.20), 0 0 0 transparent;
+          box-shadow: 0 16px 32px 0 rgba(10, 16, 34,0.20), 0 0 0 transparent;
+  -webkit-transform: translateY(-5px) translateZ(0);
+          transform: translateY(-5px) translateZ(0);
 }
 .content-ds .title {
   background-image: linear-gradient(-180deg, #B973FF 0%, #804BB5 100%);
@@ -222,6 +218,14 @@ h1.post-title {
   display: flex;
   flex-direction: column;
   height: 100%;
+}
+.post-articles .content { 
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+ }
+.post-articles .clamp {
+  flex-grow: 1;
 }
 .date {
   opacity:0.8;
@@ -238,7 +242,8 @@ h1.post-title {
   font-weight: 600;
   opacity: 1;
   cursor: pointer;
-  transition: background 200ms ease;
+  -webkit-transition: background 200ms ease;
+          transition: background 200ms ease;
 }
 .title:hover .button { 
   background: #53E9C9;
@@ -341,6 +346,24 @@ h1.post-title {
   margin-bottom: 4px;
 }
 .filter li:last-child { margin-right: 0; }
+.badge {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1;
+  letter-spacing: 1px;
+  border-radius: 2px;
+  padding: 3px 6px;
+  margin-bottom: 1.2rem;
+}
+.badge.Sketch.File {
+  background: #FCA900;
+}
+.badge.Plugin {
+  background: #36D0AF;
+}
 
 /*============================================================
 RESPONSIVE
@@ -429,7 +452,8 @@ RESPONSIVE
     background: none;
     border: none;
     padding: 3.2rem 2.4rem;
-    transition: all 240ms ease;
+    -webkit-transition: all 240ms ease;
+            transition: all 240ms ease;
     cursor: pointer;
     user-select: none;
     outline: 0;
@@ -439,7 +463,8 @@ RESPONSIVE
     width: 28px;
     height: 3px;
     background: #fff;
-    transition: all 240ms ease;
+    -webkit-transition: all 240ms ease;
+            transition: all 240ms ease;
     position: relative;
   }
   .lines:before,
@@ -448,7 +473,8 @@ RESPONSIVE
     width: 24px;
     height: 3px;
     background: #fff;
-    transition: all 240ms ease;
+    -webkit-transition: all 240ms ease;
+            transition: all 240ms ease;
     position: absolute;
     right: 0;
     content: '';

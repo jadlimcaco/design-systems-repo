@@ -1,0 +1,23 @@
+---
+layout: page-tools
+title: Tools
+permalink: /tools/sketch/
+description: A list of good books on the subject of design systems. If you have any recommendations, please send me a tweet at @jadlimcaco and I will add it to the list.
+---
+
+{% assign tool = site.tools | where:'tags', 'sketch' %}
+{%- for tools in tool %}
+            <!-- Block -->
+            <a class="block block-tools" href="{{ tools.link }}" title="{{ tools.title }}" target="_blank">
+
+              <div class="img-wrap">
+                <img src="{{ site.baseurl }}/images/loader-ds.gif" data-echo="{{ site.baseurl }}/{{ tools.image }}" alt="{{ tools.title }}" width="800" height="400" />
+              </div>
+              <div class="content">
+                <span class="badge {{ tools.type }}">{{ tools.type }}</span>
+                <h2>{{ tools.title }}</h2>
+                <p class="clamp">{{ tools.description }}</p>
+              </div>
+
+            </a>
+{% endfor %}

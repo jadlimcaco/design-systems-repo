@@ -1,0 +1,21 @@
+---
+layout: page-tools
+title: Tools
+permalink: /tools/
+description: An ever growing list of design and development tools and plugins to help you build, maintain, and organize your own design system.
+---
+{%- assign tool = site.tools | sort: 'title' %}
+{%- for tools in tool %}
+            <!-- Block -->
+            <a class="block block-tools" href="{{ tools.link }}" title="{{ tools.title }}" target="_blank">
+
+              <div class="img-wrap">
+                <img src="{{ site.baseurl }}/images/loader-ds.gif" data-echo="{{ site.baseurl }}/{{ tools.image }}" alt="{{ tools.title }}" width="800" height="400" />
+              </div>
+              <div class="content">
+                <h2>{{ tools.title }}</h2>
+                <p class="clamp">{{ tools.description }}</p>
+              </div>
+
+            </a>
+{% endfor %}
