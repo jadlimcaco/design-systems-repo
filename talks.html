@@ -4,7 +4,7 @@ title: Talks
 permalink: /talks/
 description: Helpful talks and presentations from the best in the industry. Learn more about the innovation that is happening in design systems and design tooling.
 ---
-{%- assign talk = site.talks | sort: 'title' %}
+{%- assign talk = site.talks | sort: 'date' | reverse %}
 {%- for talks in talk %}
             <!-- Block -->
             <a class="block block-talks" href="{{ talks.link }}" title="{{ talks.title }}" target="_blank">
