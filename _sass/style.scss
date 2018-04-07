@@ -631,4 +631,17 @@ RESPONSIVE
     width: 100%;
     display: block; 
   }
+
+  .footer {
+    display: block;
+  }
+  .footer span {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .footer span.coffee {
+    margin-top: 2.4rem;
+  }
+
 }
