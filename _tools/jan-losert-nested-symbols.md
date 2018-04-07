@@ -1,5 +1,4 @@
 ---
-layout: post
 date: January 5, 2018
 title: Nested Symbols & Styleguides
 link: http://janlosert.com/store/symbols-styleguides.html
@@ -9,3 +8,14 @@ tags:
 - sketch
 type: Sketch File
 ---
+
+<!-- TOOLS TAGS
+================================
+- design
+- development
+- documentation
+- frameworks
+- sketch
+  type: Plugin
+  type: Sketch File
+================================ -->

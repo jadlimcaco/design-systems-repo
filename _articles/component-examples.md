@@ -1,5 +1,4 @@
 ---
-layout: post
 date: March 24, 2018
 title: Component Examples
 author: Nathan Curtis
@@ -8,12 +7,10 @@ description: Visual examples are the most essential element of effective compone
 tags:
 - process
 - patterns
-
 ---
 
-<!-- ========================
-AVAILABLE TAGS
-=============================
+<!-- ARTICLE TAGS
+================================
 - animation
 - code
 - contribution
@@ -22,4 +19,4 @@ AVAILABLE TAGS
 - patterns
 - process
 - sketch
-============================= -->
+================================ -->

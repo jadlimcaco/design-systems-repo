@@ -1,5 +1,4 @@
 ---
-layout: post
 date: March 22, 2018
 title: Design Systems Office Hours Playbook
 author: Daniel Eden
@@ -9,12 +8,10 @@ tags:
 - leadership
 - process
 - contribution
-
 ---
 
-<!-- ========================
-AVAILABLE TAGS
-=============================
+<!-- ARTICLE TAGS
+================================
 - animation
 - code
 - contribution
@@ -23,4 +20,4 @@ AVAILABLE TAGS
 - patterns
 - process
 - sketch
-============================= -->
+================================ -->

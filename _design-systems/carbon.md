@@ -1,5 +1,4 @@
 ---
-layout: post
 date: January 1, 2018
 title: Carbon Design System
 company: IBM

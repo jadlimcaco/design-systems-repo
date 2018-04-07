@@ -1,5 +1,4 @@
 ---
-layout: post
 date: December 16, 2016
 title: Animation in Design Systems
 author: Sarah Drasner
@@ -8,12 +7,10 @@ description: Our modern workflow has matured over time to include design systems
 tags:
 - animation
 - patterns
-
 ---
 
-<!-- ========================
-AVAILABLE TAGS
-=============================
+<!-- ARTICLE TAGS
+================================
 - animation
 - code
 - contribution
@@ -22,4 +19,4 @@ AVAILABLE TAGS
 - patterns
 - process
 - sketch
-============================= -->
+================================ -->

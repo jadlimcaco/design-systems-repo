@@ -1,5 +1,4 @@
 ---
-layout: post
 date: September 07, 2017
 title: Introducing Design Systems Into Chaos
 speaker: Diana Mounter

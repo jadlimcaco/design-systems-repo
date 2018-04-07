@@ -1,5 +1,4 @@
 ---
-layout: post
 date: March 2, 2018
 title: Audi UI
 company: Audi

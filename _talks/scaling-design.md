@@ -1,5 +1,4 @@
 ---
-layout: post
 date: October 02, 2017
 title: Scaling Design with Systems
 speaker: Karri Saarinen

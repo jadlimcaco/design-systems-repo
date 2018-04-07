@@ -1,5 +1,4 @@
 ---
-layout: post
 date: April 02, 2018
 title: Uniform
 company: Hudl

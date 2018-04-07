@@ -1,5 +1,4 @@
 ---
-layout: post
 date: January 20, 2018
 title: Yelp Styleguide
 company: Yelp

@@ -1,5 +1,4 @@
 ---
-layout: post
 date: March 20, 2018
 title: Mineral UI
 company: CA Technologies

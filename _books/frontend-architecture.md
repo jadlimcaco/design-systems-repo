@@ -1,5 +1,4 @@
 ---
-layout: post
 date: January 3, 2018
 title: Frontend Architecture for Design Systems
 author: Micah Godbolt

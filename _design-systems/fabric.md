@@ -1,5 +1,4 @@
 ---
-layout: post
 date: February 2, 2018
 title: Office UI Fabric
 company: Microsoft

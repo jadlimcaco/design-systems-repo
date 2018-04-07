@@ -1,5 +1,4 @@
 ---
-layout: post
 date: January 3, 2018
 title: Canvas Design System
 company: Hubspot

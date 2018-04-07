@@ -1,5 +1,4 @@
 ---
-layout: post
 date: January 1, 2018
 title: Bootstrap
 link: http://getbootstrap.com/
@@ -9,3 +8,14 @@ tags:
 - frameworks
 - development
 ---
+
+<!-- TOOLS TAGS
+================================
+- design
+- development
+- documentation
+- frameworks
+- sketch
+  type: Plugin
+  type: Sketch File
+================================ -->

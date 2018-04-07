@@ -1,5 +1,4 @@
 ---
-layout: post
 date: February 01, 2018
 title: OPattern
 company: OPower

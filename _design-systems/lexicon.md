@@ -1,5 +1,4 @@
 ---
-layout: post
 date: March 01, 2018
 title: Lexicon
 company: Liferay

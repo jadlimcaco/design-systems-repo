@@ -1,5 +1,4 @@
 ---
-layout: post
 date: April 02, 2018
 title: Creating Themeable Design Systems
 author: Brad Frost
@@ -8,12 +7,10 @@ description: Is it possible to create a single design system that powers wildly 
 tags:
 - code
 - design-tokens
-
 ---
 
-<!-- ========================
-AVAILABLE TAGS
-=============================
+<!-- ARTICLE TAGS
+================================
 - animation
 - code
 - contribution
@@ -22,4 +19,4 @@ AVAILABLE TAGS
 - patterns
 - process
 - sketch
-============================= -->
+================================ -->

@@ -1,5 +1,4 @@
 ---
-layout: post
 date: January 3, 2018
 title: Creating a Design System -  The 100-Point Process Checklist
 author: Marcin Treder

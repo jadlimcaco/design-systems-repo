@@ -1,5 +1,4 @@
 ---
-layout: post
 date: November 15, 2017
 title: Design Systems & Tools at Facebook
 speaker: Cristobal Castilla & Zack Schiller

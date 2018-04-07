@@ -1,5 +1,4 @@
 ---
-layout: post
 date: April 6, 2018
 title: Autodesk Design System
 company: Autodesk

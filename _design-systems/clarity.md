@@ -1,5 +1,4 @@
 ---
-layout: post
 date: March 31, 2018
 title: Clarity Design System
 company: VMware

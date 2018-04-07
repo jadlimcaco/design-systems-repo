@@ -1,5 +1,4 @@
 ---
-layout: post
 date: January 10, 2018
 title: Global Experience Language (GEL)
 company: BBC

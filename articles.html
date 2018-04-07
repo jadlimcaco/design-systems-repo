@@ -1,19 +1,50 @@
 ---
-layout: page-articles
+layout: default
 title: Articles
 permalink: /articles/
 description: This is not a comprehensive list of every design system that I have come across. Rather, it's a collection of ones that I personally found to be helpful and inspiring for my work.
 ---
-{%- assign article = site.articles | sort: 'date' | reverse %}
-{%- for articles in article %}
-            <!-- Block -->
-            <a class="block block-ds{% for item in articles.tags %} {{ item }}{% endfor %}" href="{{ articles.link }}" title="{{ articles.title }}" target="_blank">
-              <div class="content">
-                <h3>{{ articles.author }}</h3>
-                <h2>{{ articles.title }}</h2>
-                <p class="clamp">{{ articles.description }}</p>
-                <span class="date">{{ articles.date | date: '%B %d, %Y' }}</span>
-              </div>
 
+        <article class="post post-articles">
+
+          <header class="post-header clearfix">
+            <div class="post-head-wrap">
+              <div class="post-head-content">
+                <h1 class="post-title">{{ page.title | escape }}</h1>
+                <p>An index of insightful articles about design systems. If you've written an article that you want to add here, just tweet me at <a href="https://twitter.com/jadlimcaco" title="My Twitter">@jadlimcaco</a>.</p>
+              </div>
+              <img class="illustration" src="{{ site.baseurl }}/images/illustration-articles.svg" width="94" height="86" alt="Design System Articles" />
+            </div>
+          </header>
+          
+          <!-- Tags -->
+          <ul class="filter">
+            <li class="active"><a href="#" class="all">All</a></li>
+            <li><a href="#" class="animation">Animation</a></li>
+            <li><a href="#" class="code">Code</a></li>
+            <li><a href="#" class="contribution">Contribution</a></li>
+            <li><a href="#" class="design-tokens">Design Tokens</a></li>
+            <li><a href="#" class="leadership">Leadership</a></li>
+            <li><a href="#" class="patterns">Patterns</a></li>
+            <li><a href="#" class="process">Process</a></li>
+            <li><a href="#" class="sketch">Sketch</a></li>
+          </ul>
+
+          <div class="post-content holder">
+
+{%- assign articles = site.articles | sort: 'date' | reverse %}  
+{%- for article in articles %}
+            <!-- Block -->
+            <a class="block block-ds{% for item in article.tags %} {{ item }}{% endfor %}" href="{{ article.link }}" title="{{ article.title }}" target="_blank">
+              <div class="content">
+                <h3>{{ article.author }}</h3>
+                <h2>{{ article.title }}</h2>
+                <p class="clamp">{{ article.description }}</p>
+                <span class="date">{{ article.date | date: '%B %d, %Y' }}</span>
+              </div>
             </a>
 {% endfor %}
+          </div>
+
+        </article>
+        

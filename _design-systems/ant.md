@@ -1,5 +1,4 @@
 ---
-layout: post
 date: March 31, 2018
 title: Ant Design
 company: Ant Financial

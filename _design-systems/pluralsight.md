@@ -1,5 +1,4 @@
 ---
-layout: post
 date: January 01, 2018
 title: Pluralsight Design System
 company: Pluralsight

@@ -18,7 +18,7 @@ html {
 
 body {
   background: #f9f9fb;
-  color: #1b1b1b;
+  color: #0C0D0D;
   font: 1.6rem/1 'IBM Plex Sans', sans-serif;
 }
 
@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 { font-size: 3.6rem; line-height: 1.15; }
-h2 { font-size: 2.4rem; }
+h2 { font-size: 2.4rem; margin-bottom: 1.6rem; }
 h3 { font-size: 1.8rem; }
 h4 { font-size: 1.6rem; }
 
@@ -48,7 +48,7 @@ h4 { font-size: 1.6rem; }
 p {
   font-size: 1.8rem;
   line-height: 1.5;
-  margin-bottom: 1.6rem;
+  margin-bottom: 2.4rem;
   text-rendering: optimizeLegibility;
   max-width: 64rem;
 }
@@ -93,8 +93,6 @@ HEADER
 ============================================================*/
 .site-header {
   background: #13161F;
-  position: fixed;
-  z-index: 100;
   width: 100%;
 }
 .site-title {
@@ -147,13 +145,35 @@ CONTENT
 .post-head-wrap {
   max-width: 104rem;
   width: 100%;
-  padding: 16rem 2.4rem 6rem;
+  padding: 8rem 2.4rem 6rem;
   margin: 0 auto;
   display:flex;
   justify-content: space-between;
   align-items: flex-start;
   align-content: flex-start;
 }
+
+.page-about-wrap {
+  max-width: 104rem;
+  width: 100%;
+  padding:0 2.4rem 8.8rem;
+  margin: 0 auto;
+  display:flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+.about-connect {
+  width: 28rem;
+  padding-left: 4rem;
+}
+.about-connect li a {
+  margin-bottom: 1.6rem;
+  padding-bottom: 1.6rem;
+  border-bottom: solid 1px #E3E4E8;
+  display: block;
+}
+
 .illustration {
   width: 22rem;
   height: auto;
@@ -172,7 +192,7 @@ CONTENT
   max-width: 140rem;
   width: 100%;
   padding: 0 2.4rem;
-  margin: 0 auto 6rem;
+  margin: 0 auto 9.6rem;
 }
 .post-books .post-content {
     grid-template-columns: repeat(auto-fill,minmax(24rem, 1fr));
@@ -365,6 +385,29 @@ h1.post-title {
   background: #36D0AF;
 }
 
+.footer-wrap {
+  background:url("/images/footer.svg") center top repeat-x #0C0D0D;
+  display: block;
+}
+.footer {
+  max-width: 140rem;
+  width: 100%;
+  padding: 4rem 2.4rem;
+  margin: 0 auto;
+  display:flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+.footer span {
+  color: #919696;
+}
+.footer span a {
+  color: #73FFE1;
+  padding-right: 4px;
+}
+
+
 /*============================================================
 RESPONSIVE
 ============================================================*/
@@ -406,6 +449,11 @@ RESPONSIVE
 @media only screen and (max-width: 719px) {
 
   html { font-size: 57%; }
+
+  .site-header {
+    position: fixed;
+    z-index: 100;
+  }
 
   .post-content.content-ds {
     grid-template-columns: repeat(auto-fill,minmax(24rem, 1fr));
@@ -492,7 +540,7 @@ RESPONSIVE
   }
   .lines:before {
     top: 8px;
-  }
+  } 
   .lines:after {
     top: -8px;
   }

@@ -1,5 +1,4 @@
 ---
-layout: post
 date: March 2, 2018
 title: Docsify
 link: https://docsify.js.org/#/
@@ -9,3 +8,14 @@ tags:
 - development
 - documentation
 ---
+
+<!-- TOOLS TAGS
+================================
+- design
+- development
+- documentation
+- frameworks
+- sketch
+  type: Plugin
+  type: Sketch File
+================================ -->

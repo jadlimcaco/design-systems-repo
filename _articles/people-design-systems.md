@@ -1,5 +1,4 @@
 ---
-layout: post
 date: Februar 28, 2018
 title: The People Part of Design Systems
 author: Magera Moon
@@ -8,12 +7,10 @@ description: We realized that ultimately for our systems to succeed long-term, t
 tags:
 - process
 - contribution
-
 ---
 
-<!-- ========================
-AVAILABLE TAGS
-=============================
+<!-- ARTICLE TAGS
+================================
 - animation
 - code
 - contribution
@@ -22,4 +19,4 @@ AVAILABLE TAGS
 - patterns
 - process
 - sketch
-============================= -->
+================================ -->

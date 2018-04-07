@@ -1,5 +1,4 @@
 ---
-layout: post
 date: April 01, 2018
 title: Workday Canvas
 company: Workday

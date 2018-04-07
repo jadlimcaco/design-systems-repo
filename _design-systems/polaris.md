@@ -1,5 +1,4 @@
 ---
-layout: post
 date: March 4, 2018
 title: Polaris
 company: Shopify

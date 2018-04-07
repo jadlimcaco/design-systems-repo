@@ -1,5 +1,4 @@
 ---
-layout: post
 date: January 5, 2018
 title: Symbol Organizer
 link: https://github.com/sonburn/symbol-organizer
@@ -9,3 +8,14 @@ tags:
 - sketch
 type: Plugin
 ---
+
+<!-- TOOLS TAGS
+================================
+- design
+- development
+- documentation
+- frameworks
+- sketch
+  type: Plugin
+  type: Sketch File
+================================ -->

@@ -1,5 +1,4 @@
 ---
-layout: post
 date: September 07, 2017
 title: Thinking in Symbols for Universal Design
 speaker: Benjamin Wilkins

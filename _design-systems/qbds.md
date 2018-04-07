@@ -1,5 +1,4 @@
 ---
-layout: post
 date: March 1, 2018
 title: QuickBooks Design System
 company: QuickBooks

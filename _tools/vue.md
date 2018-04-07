@@ -1,5 +1,4 @@
 ---
-layout: post
 date: March 2, 2018
 title: Vue Design System
 link: https://vueds.com/
@@ -9,3 +8,14 @@ tags:
 - documentation
 - development
 ---
+
+<!-- TOOLS TAGS
+================================
+- design
+- development
+- documentation
+- frameworks
+- sketch
+  type: Plugin
+  type: Sketch File
+================================ -->
