@@ -6,17 +6,17 @@ link: https://publication.design.systems/what-i-learned-about-leading-a-design-s
 description: I wanted to take the time to document what I have learned about leading a design system and design systems in general over the past year so that I can be intentional about my efforts to improve in 2018.
 tags:
 - leadership
----
 
-<!-- ========================
-AVAILABLE TAGS
-=============================
-- animation
-- code
-- contribution
-- design-tokens
-- leadership
-- patterns
-- process
-- sketch
-============================= -->
+# ================================
+# ARTICLE TAGS AVAILABLE
+# ================================
+# animation
+# code
+# contribution
+# design-tokens
+# leadership
+# patterns
+# process
+# sketch
+# ================================
+---

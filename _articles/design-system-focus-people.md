@@ -7,17 +7,17 @@ description: We learned that the best way to create consistent, functional, and 
 tags:
 - process
 - contribution
----
 
-<!-- ========================
-AVAILABLE TAGS
-=============================
-- animation
-- code
-- contribution
-- design-tokens
-- leadership
-- patterns
-- process
-- sketch
-============================= -->
+# ================================
+# ARTICLE TAGS AVAILABLE
+# ================================
+# animation
+# code
+# contribution
+# design-tokens
+# leadership
+# patterns
+# process
+# sketch
+# ================================
+---

@@ -7,16 +7,17 @@ description: Our modern workflow has matured over time to include design systems
 tags:
 - animation
 - patterns
----
 
-<!-- ARTICLE TAGS
-================================
-- animation
-- code
-- contribution
-- design-tokens
-- leadership
-- patterns
-- process
-- sketch
-================================ -->
+# ================================
+# ARTICLE TAGS AVAILABLE
+# ================================
+# animation
+# code
+# contribution
+# design-tokens
+# leadership
+# patterns
+# process
+# sketch
+# ================================
+---

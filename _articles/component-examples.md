@@ -7,16 +7,17 @@ description: Visual examples are the most essential element of effective compone
 tags:
 - process
 - patterns
----
 
-<!-- ARTICLE TAGS
-================================
-- animation
-- code
-- contribution
-- design-tokens
-- leadership
-- patterns
-- process
-- sketch
-================================ -->
+# ================================
+# ARTICLE TAGS AVAILABLE
+# ================================
+# animation
+# code
+# contribution
+# design-tokens
+# leadership
+# patterns
+# process
+# sketch
+# ================================
+---

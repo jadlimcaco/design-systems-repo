@@ -6,17 +6,17 @@ link: https://uxdesign.cc/drag-and-drop-for-design-systems-8d40502eb26de
 description: Drag and drop interactions are often overlooked or go unnoticed. Sometimes they happen so naturally that you don’t even realize it. But if you look closely, there are many different UX standards around drag and drop.
 tags:
 - patterns
----
 
-<!-- ========================
-AVAILABLE TAGS
-=============================
-- animation
-- code
-- contribution
-- design-tokens
-- leadership
-- patterns
-- process
-- sketch
-============================= -->
+# ================================
+# ARTICLE TAGS AVAILABLE
+# ================================
+# animation
+# code
+# contribution
+# design-tokens
+# leadership
+# patterns
+# process
+# sketch
+# ================================
+---

@@ -6,16 +6,17 @@ link: https://medium.com/zendesk-creative-blog/building-a-successful-design-syst
 description: There’s been a lot of great writing about the craft of design systems. Much less has been written about what it’s like to support and invest in a design system from the perspective of design management.
 tags:
 - leadership
----
 
-<!-- ARTICLE TAGS
-================================
-- animation
-- code
-- contribution
-- design-tokens
-- leadership
-- patterns
-- process
-- sketch
-================================ -->
+# ================================
+# ARTICLE TAGS AVAILABLE
+# ================================
+# animation
+# code
+# contribution
+# design-tokens
+# leadership
+# patterns
+# process
+# sketch
+# ================================
+---

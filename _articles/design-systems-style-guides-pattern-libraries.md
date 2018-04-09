@@ -6,16 +6,17 @@ link: https://uxcellence.com/2017/design-systems-style-guides-pattern-libraries
 description: Many people, though, use the terms interchangeably when they are, in fact, different concepts. Let’s take a few minutes to explore their differences.
 tags:
 - patterns
----
 
-<!-- ARTICLE TAGS
-================================
-- animation
-- code
-- contribution
-- design-tokens
-- leadership
-- patterns
-- process
-- sketch
-================================ -->
+# ================================
+# ARTICLE TAGS AVAILABLE
+# ================================
+# animation
+# code
+# contribution
+# design-tokens
+# leadership
+# patterns
+# process
+# sketch
+# ================================
+---

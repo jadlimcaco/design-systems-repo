@@ -6,16 +6,17 @@ link: https://www.lukew.com/ff/entry.asp?1989
 description: In her presentation at An Event Apart in Seattle, Yesenia Perez-Cruz shared lessons learned building design systems for multiple brands/Web sites and how specific user-scenarios are key to making flexible solutions.
 tags:
 - process
----
 
-<!-- ARTICLE TAGS
-================================
-- animation
-- code
-- contribution
-- design-tokens
-- leadership
-- patterns
-- process
-- sketch
-================================ -->
+# ================================
+# ARTICLE TAGS AVAILABLE
+# ================================
+# animation
+# code
+# contribution
+# design-tokens
+# leadership
+# patterns
+# process
+# sketch
+# ================================
+---

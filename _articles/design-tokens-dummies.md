@@ -6,17 +6,17 @@ link: https://uxdesign.cc/design-tokens-for-dummies-8acebf010d71
 description: Design tokens allow product teams to better collaborate and ensure brand consistency across any platform. Design tokens are central and tiny pieces of UI information such as colors, fonts, spacing, etc.
 tags:
 - design-tokens
----
 
-<!-- ========================
-AVAILABLE TAGS
-=============================
-- animation
-- code
-- contribution
-- design-tokens
-- leadership
-- patterns
-- process
-- sketch
-============================= -->
+# ================================
+# ARTICLE TAGS AVAILABLE
+# ================================
+# animation
+# code
+# contribution
+# design-tokens
+# leadership
+# patterns
+# process
+# sketch
+# ================================
+---

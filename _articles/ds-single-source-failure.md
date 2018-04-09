@@ -6,17 +6,17 @@ link: https://blog.hichroma.com/why-design-systems-are-a-single-point-of-failure
 description:  As designers and frontend developers, we can be so caught up in evangelizing UI consistency that we become blind to the single point of failure in front of us. This article talks about why design systems collapse and how maintenance stops that from happening.
 tags:
 - process
----
 
-<!-- ========================
-AVAILABLE TAGS
-=============================
-- animation
-- code
-- contribution
-- design-tokens
-- leadership
-- patterns
-- process
-- sketch
-============================= -->
+# ================================
+# ARTICLE TAGS AVAILABLE
+# ================================
+# animation
+# code
+# contribution
+# design-tokens
+# leadership
+# patterns
+# process
+# sketch
+# ================================
+---

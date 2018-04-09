@@ -6,16 +6,17 @@ link: https://medium.com/elegant-tools/designing-a-visual-system-at-scale-d27525
 description: Not every experience across every Facebook business and consumer product strikes a perfect balance between distinctiveness and unity with the overall Facebook experience. But the visual system has helped us make a big leap toward that goal.
 tags:
 - process
----
 
-<!-- ARTICLE TAGS
-================================
-- animation
-- code
-- contribution
-- design-tokens
-- leadership
-- patterns
-- process
-- sketch
-================================ -->
+# ================================
+# ARTICLE TAGS AVAILABLE
+# ================================
+# animation
+# code
+# contribution
+# design-tokens
+# leadership
+# patterns
+# process
+# sketch
+# ================================
+---

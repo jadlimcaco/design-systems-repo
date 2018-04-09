@@ -6,16 +6,17 @@ link: http://bradfrost.com/blog/post/your-sketch-library-is-not-a-design-system/
 description: You can’t build working software out of screenshots and Sketch files. At the heart of any great design system is a reusable set of UI components that product teams can reach for to build actual software. 
 tags:
 - sketch
----
 
-<!-- ARTICLE TAGS
-================================
-- animation
-- code
-- contribution
-- design-tokens
-- leadership
-- patterns
-- process
-- sketch
-================================ -->
+# ================================
+# ARTICLE TAGS AVAILABLE
+# ================================
+# animation
+# code
+# contribution
+# design-tokens
+# leadership
+# patterns
+# process
+# sketch
+# ================================
+---

@@ -1,8 +1,6 @@
  
-
-//----------------------------------------------------------------------------
-// RESPONSIVE NAV
-//----------------------------------------------------------------------------
+/* RESPONSIVE NAV
+---------------------------------------------------------------------------- */
 $(document).ready(function() {
 	
     $(function() {
@@ -23,7 +21,7 @@ $(document).ready(function() {
         });
     });
 
-    // PULL ANIMATED MENU
+    /* PULL ANIMATED MENU */
     var anchor = document.querySelectorAll('button');
     
     [].forEach.call(anchor, function(anchor){
