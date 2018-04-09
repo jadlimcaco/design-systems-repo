@@ -21,7 +21,6 @@ layout: compress
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="{{ "js/script.js" | relative_url }}"></script>
     <script>    
-      /* LAZY LOAD */
       echo.init({
         offset: 2500,
         throttle: 250,
@@ -30,24 +29,17 @@ layout: compress
         }
       });
       {% if page.url == "/articles/" %}
-        /* TAG FILTERS */
         $(document).ready(function() {
           $('.filter li a').click(function(event){
           event.preventDefault();
-            /* fetch the class of the clicked item */
             var ourClass = $(this).attr('class');
-            /* reset the active class on all the buttons */
             $('.filter li').removeClass('active');
-            /* update the active state on our clicked button */
             $(this).parent().addClass('active');
             if(ourClass == 'all') {
-              /* show all our items */
               $('.holder').children('.block').show();
             }
             else {
-              /* hide all elements that don't share ourClass */
               $('.holder').children('.block:not(.' + ourClass + ')').hide();
-              /* show all elements that do share ourClass */
               $('.holder').children('.block.' + ourClass).show();
             }
             return false;
