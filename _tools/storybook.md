@@ -7,15 +7,16 @@ description: Storybook is the UI development environment You'll love to use. You
 tags:
 - development
 - documentation
----
 
-<!-- TOOLS TAGS
-================================
-- design
-- development
-- documentation
-- frameworks
-- sketch
-  type: Plugin
-  type: Sketch File
-================================ -->
+# ================================
+# TOOLS CATEGORIES AVAILABLE
+# ================================
+# - design
+# - development
+# - documentation
+# - frameworks
+# - sketch
+#   type: Plugin
+#   type: Sketch File
+# ================================
+---

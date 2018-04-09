@@ -7,15 +7,16 @@ description: Stop wasting your time by crafting the same design systems and elem
 tags:
 - sketch
 type: Sketch File
----
 
-<!-- TOOLS TAGS
-================================
-- design
-- development
-- documentation
-- frameworks
-- sketch
-  type: Plugin
-  type: Sketch File
-================================ -->
+# ================================
+# TOOLS CATEGORIES AVAILABLE
+# ================================
+# - design
+# - development
+# - documentation
+# - frameworks
+# - sketch
+#   type: Plugin
+#   type: Sketch File
+# ================================
+---

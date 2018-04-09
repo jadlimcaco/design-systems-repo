@@ -44,7 +44,7 @@ layout: default
               </div>
             </a>
 {%- assign articles = site.articles | sort: 'date' | reverse %}        
-{%- for item in articles limit:4 %}
+{%- for item in articles limit:3 %}
             <!-- Block -->
             <a class="block block-home" href="{{ item.link }}" title="{{ item.title }}" target="_blank">
               <div class="content">
@@ -54,6 +54,45 @@ layout: default
               </div>
             </a>
 {%- endfor %}
+          </div>
+
+          <div class="home-secondary-wrap">
+            <div class="home-secondary">
+
+              <!-- Secondary Tile -->
+              <a class="secondary-tile" href="/tools/" title="Tools on Design Systems">
+                <div class="secondary-tile-img">
+                  <img src="{{ site.baseurl }}/images/icon-tools.svg" width="24" height="24" alt="Tools" />
+                </div>
+                <div class="secondary-content">
+                  <h2>Tools <span>&rarr;</span></h2>
+                  <p>A growing collection of design system tools, resources, and plugins.</p>
+                </div>
+              </a>
+
+              <!-- Secondary Tile -->
+              <a class="secondary-tile" href="/books/" title="Books on Design Systems">
+                <div class="secondary-tile-img">
+                  <img src="{{ site.baseurl }}/images/icon-books.svg" width="24" height="24" alt="Books" />
+                </div>
+                <div class="secondary-content">
+                  <h2>Books <span>&rarr;</span></h2>
+                  <p>A list of recommended books on the subject of design systems from industry experts.</p>
+                </div>
+              </a>
+
+              <!-- Secondary Tile -->
+              <a class="secondary-tile" href="/talks/" title="Talks on Design Systems">
+                <div class="secondary-tile-img">
+                  <img src="{{ site.baseurl }}/images/icon-talks.svg" width="24" height="24" alt="Books" />
+                </div>
+                <div class="secondary-content">
+                  <h2>Talks <span>&rarr;</span></h2>
+                  <p>Helpful talks and presentations on tools and process regarding design systems.</p>
+                </div>
+              </a>
+
+            </div>
           </div>
 
         </div>

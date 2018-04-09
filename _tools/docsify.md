@@ -7,15 +7,16 @@ description: Docsify generates your documentation website on the fly. It does no
 tags:
 - development
 - documentation
----
 
-<!-- TOOLS TAGS
-================================
-- design
-- development
-- documentation
-- frameworks
-- sketch
-  type: Plugin
-  type: Sketch File
-================================ -->
+# ================================
+# TOOLS CATEGORIES AVAILABLE
+# ================================
+# - design
+# - development
+# - documentation
+# - frameworks
+# - sketch
+#   type: Plugin
+#   type: Sketch File
+# ================================
+---

@@ -6,15 +6,16 @@ image: images/tools/pattern-lab.jpg
 description: Pattern Lab helps you and your team build thoughtful, pattern-driven user interfaces using atomic design principles.
 tags:
 - documentation
----
 
-<!-- TOOLS TAGS
-================================
-- design
-- development
-- documentation
-- frameworks
-- sketch
-  type: Plugin
-  type: Sketch File
-================================ -->
+# ================================
+# TOOLS CATEGORIES AVAILABLE
+# ================================
+# - design
+# - development
+# - documentation
+# - frameworks
+# - sketch
+#   type: Plugin
+#   type: Sketch File
+# ================================
+---

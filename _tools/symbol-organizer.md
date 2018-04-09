@@ -7,15 +7,16 @@ description: Organize your symbols page alphabetically (including layer list) an
 tags:
 - sketch
 type: Plugin
----
 
-<!-- TOOLS TAGS
-================================
-- design
-- development
-- documentation
-- frameworks
-- sketch
-  type: Plugin
-  type: Sketch File
-================================ -->
+# ================================
+# TOOLS CATEGORIES AVAILABLE
+# ================================
+# - design
+# - development
+# - documentation
+# - frameworks
+# - sketch
+#   type: Plugin
+#   type: Sketch File
+# ================================
+---

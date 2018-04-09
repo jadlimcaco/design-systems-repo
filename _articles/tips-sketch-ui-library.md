@@ -6,18 +6,17 @@ link: https://medium.com/help-scout/more-tips-for-building-your-sketch-ui-librar
 description: For those of you deep in the trenches, I wanted to share a couple of things that have made my life immeasurably easier when creating and maintaining our shared components with Sketch.
 tags:
 - sketch
----
 
 # ================================
 # ARTICLE TAGS AVAILABLE
 # ================================
-# animation
-# code
-# contribution
-# design-tokens
-# leadership
-# patterns
-# process
-# sketch
+# - animation
+# - code
+# - contribution
+# - design-tokens
+# - leadership
+# - patterns
+# - process
+# - sketch
 # ================================
 ---

@@ -7,19 +7,19 @@ layout: compress
 {%- include head.html %}
 
   <body>
-  {% include header.html %}
-    <!-- Content -->
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-
-{{ content }}
-      </div>
-    </main>
+    <div class="body-wrap">
+    {% include header.html %}
+      <!-- Content -->
+      <main class="page-content" aria-label="Content">
+        <div class="wrapper">
+        {{ content }}
+        </div>
+      </main>
+    </div>
 
 {% include footer.html %}
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="{{ "js/script.js" | relative_url }}"></script>
-    <script src="{{ "js/lazyload.js" | relative_url }}"></script>
     <script>    
       /* LAZY LOAD */
       echo.init({
@@ -29,30 +29,30 @@ layout: compress
         callback: function (element, op) {
         }
       });
-    {% if page.url == "/articles/" %}
-      /* TAG FILTERS */
-      $(document).ready(function() {
-        $('.filter li a').click(function(event){
-        event.preventDefault();
-          /* fetch the class of the clicked item */
-          var ourClass = $(this).attr('class');
-          /* reset the active class on all the buttons */
-          $('.filter li').removeClass('active');
-          /* update the active state on our clicked button */
-          $(this).parent().addClass('active');
-          if(ourClass == 'all') {
-            /* show all our items */
-            $('.holder').children('.block').show();
-          }
-          else {
-            /* hide all elements that don't share ourClass */
-            $('.holder').children('.block:not(.' + ourClass + ')').hide();
-            /* show all elements that do share ourClass */
-            $('.holder').children('.block.' + ourClass).show();
-          }
-          return false;
+      {% if page.url == "/articles/" %}
+        /* TAG FILTERS */
+        $(document).ready(function() {
+          $('.filter li a').click(function(event){
+          event.preventDefault();
+            /* fetch the class of the clicked item */
+            var ourClass = $(this).attr('class');
+            /* reset the active class on all the buttons */
+            $('.filter li').removeClass('active');
+            /* update the active state on our clicked button */
+            $(this).parent().addClass('active');
+            if(ourClass == 'all') {
+              /* show all our items */
+              $('.holder').children('.block').show();
+            }
+            else {
+              /* hide all elements that don't share ourClass */
+              $('.holder').children('.block:not(.' + ourClass + ')').hide();
+              /* show all elements that do share ourClass */
+              $('.holder').children('.block.' + ourClass).show();
+            }
+            return false;
+          });
         });
-      });
     {% endif -%}
     </script>
   </body>

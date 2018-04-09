@@ -11,14 +11,13 @@ tags:
 # ================================
 # ARTICLE TAGS AVAILABLE
 # ================================
-# animation
-# code
-# contribution
-# design-tokens
-# leadership
-# patterns
-# process
-# sketch
+# - animation
+# - code
+# - contribution
+# - design-tokens
+# - leadership
+# - patterns
+# - process
+# - sketch
 # ================================
 ---
-================================ -->
