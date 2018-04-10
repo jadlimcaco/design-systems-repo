@@ -2,7 +2,7 @@
 date: April 9, 2018
 title: Chromatic
 link: https://www.chromaticqa.com/
-image: images/tools/plant.jpg
+image: images/tools/chromatic.jpg
 description: Pinpoint UI component bugs instantly. Chromatic ensures UI consistency in React components, down to the pixel. Every commit is automatically tested for visual changes in the cloud.
 tags:
 - development
