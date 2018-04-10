@@ -1,5 +1,5 @@
 ---
-date: April 10, 2018
+date: April 7, 2018
 title: U.S. Web Design System
 company: U.S. Government
 link: https://designsystem.digital.gov/
