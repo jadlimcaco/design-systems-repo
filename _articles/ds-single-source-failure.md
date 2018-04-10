@@ -14,6 +14,7 @@ tags:
 # - code
 # - contribution
 # - design-tokens
+# - figma
 # - leadership
 # - patterns
 # - process
