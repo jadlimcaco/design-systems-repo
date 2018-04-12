@@ -340,12 +340,15 @@ h1.post-title {
   flex-direction: column;
   height: 100%;
 }
-.post-articles .content { 
+.post-articles .content,
+.block-talks,
+.post-talks .content { 
   display: flex;
   flex-direction: column;
   height: 100%;
  }
-.post-articles .clamp {
+.post-articles .clamp,
+.post-talks .clamp {
   flex-grow: 1;
 }
 .date {
@@ -425,7 +428,7 @@ h1.post-title {
 .img-wrap {
   border-radius: 6px 6px 0 0;
   width: 100%;
-  overflow: hidden;
+  height: auto;
   display: block;
   border-bottom: solid 1px #f1f1f1;
   line-height: 0;

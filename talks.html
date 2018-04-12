@@ -29,6 +29,7 @@ description: Helpful talks and presentations from the best in the industry. Lear
                 <h3>{{ talk.speaker }}</h3>
                 <h2>{{ talk.title }}</h2>
                 <p class="clamp">{{ talk.description }}</p>
+                <span class="date">{{ talk.date | date: '%B %d, %Y' }}</span>
               </div>
             </a>
 {% endfor %}
