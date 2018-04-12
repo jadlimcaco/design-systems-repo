@@ -496,8 +496,11 @@ h1.post-title {
 }
 .footer-border {
   height: 6px;
-  background:url("/images/footer.svg") center top repeat-x;
+  background-image: -webkit-linear-gradient(left, #B973FF 0%, #73D6FF 24%, #61DAC8 50%, #73D6FF 77%, #B973FF 100%);
+  background-image: -o-linear-gradient(left, #B973FF 0%, #73D6FF 24%, #61DAC8 50%, #73D6FF 77%, #B973FF 100%);
+  background-image: linear-gradient(to right, #B973FF 0%, #73D6FF 24%, #61DAC8 50%, #73D6FF 77%, #B973FF 100%);
   display: block;
+  background-size:100% auto;
 }
 .footer {
   max-width: 140rem;
@@ -520,7 +523,6 @@ h1.post-title {
   margin-left: 4px;
   opacity: .65;
 }
-
 
 /*============================================================
 RESPONSIVE
