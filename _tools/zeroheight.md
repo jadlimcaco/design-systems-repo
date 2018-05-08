@@ -6,7 +6,7 @@ image: images/tools/zero-height.jpg
 description: zeroheight brings design systems to life with beautiful, sophisticated and up-to-date styleguides synced with design and development.
 tags:
 - documentation
-- Sketch
+- sketch
 type: Plugin
 
 # ================================
