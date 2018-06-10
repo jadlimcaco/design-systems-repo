@@ -1,5 +1,5 @@
 ---
-date: June 9,2018
+date: June 6, 2018
 title: Bolt Design System
 company: Pega Digital
 link: https://bolt-design-system.com/

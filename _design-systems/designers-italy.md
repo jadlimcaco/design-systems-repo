@@ -1,5 +1,5 @@
 ---
-date: June 9,2018
+date: June 7, 2018
 title: .it Designers Italy
 company: Italian Public Administration
 link: https://designers.italia.it/
