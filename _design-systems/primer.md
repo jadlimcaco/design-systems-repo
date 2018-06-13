@@ -1,9 +1,9 @@
 ---
-date: April 16, 2018
+date: June 12, 2018
 title: Primer
 company: GitHub
-link: https://primer.github.io
+link: https://styleguide.github.com/primer/
 image: images/systems/primer.jpg
-description: Primer is the design system that powers GitHub. A new documentation website is coming soon.
+description: Resources, tooling, and design guidelines for building websites with Primer, GitHub's front-end framework.
 
 ---
