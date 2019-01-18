@@ -7,6 +7,7 @@ description: Fractal is a tool to help you build and document web component libr
 tags:
 - frameworks
 - development
+- documentation
 
 # ================================
 # TOOLS CATEGORIES AVAILABLE
