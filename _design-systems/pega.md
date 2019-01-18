@@ -1,6 +1,6 @@
 ---
 date: February 01, 2018
-title: Pega Product Design
+title: Pega Cosmos
 company: Pegasystems
 link: https://design.pega.com/
 image: images/systems/pega.jpg
