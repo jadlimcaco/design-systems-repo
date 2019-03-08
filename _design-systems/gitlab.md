@@ -1,6 +1,6 @@
 ---
 date: April 1, 2017
-title: Gitlab Design System
+title: Pajamas - Gitlab Design System
 company: Gitlab
 link: https://design.gitlab.com/
 image: images/systems/gitlab.jpg
