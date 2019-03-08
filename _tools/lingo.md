@@ -1,9 +1,9 @@
 ---
 date: April 9, 2018
 title: Lingo
-link: https://www.lingoapp.com/
+link: https://www.lingoapp.com/use-cases/design-system-manager/
 image: images/tools/lingo.jpg
-description: Lingo is a design library made for your entire team – everyone from designers to developers and marketers to managers can use it. Teams use Lingo to establish a shared design language, automating consistency and increasing efficiency.
+description: Lingo helps you build and share a design system that will empower your entire team to build better products and experiences faster.
 tags:
 - design
 - sketch
