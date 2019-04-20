@@ -1,4 +1,4 @@
-# Design Systems Repo
+# Design Systems Repo 👾
 
 Welcome to the Design Systems Repo. A frequently updated and growing collection of Design System examples, articles, tools and talks.
 
