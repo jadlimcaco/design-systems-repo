@@ -1,12 +1,16 @@
 # Design Systems Repo
 
-Welcome to the Design Systems Repo. A frequently updated collection of Design System examples, articles, tools and talks.
+Welcome to the Design Systems Repo. A frequently updated and growing collection of Design System examples, articles, tools and talks.
+
+The goal of the project is to put together a comprehensive and curated list of design systems, style guides and pattern libraries that you can use for inspiration.
 
 ---
 
 ### How to Contribute
 
-Detailed contribution guidelines are a work in progress. 🚧 You can just submit a PR for now with the markdown file and image of what you want to add, or submit it [here](https://jad8.typeform.com/to/XnIDFZ).
+Detailed contribution guidelines are a work in progress. 🚧
+
+You can just submit a PR for now with the markdown file and image of what you want to add, or submit it [here](https://jad8.typeform.com/to/XnIDFZ).
 
 ---
 
