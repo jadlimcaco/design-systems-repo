@@ -22,6 +22,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "aaronshekey",
+      "name": "Aaron Shekey",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1369864?v=4",
+      "profile": "http://www.aaronshekey.com",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
