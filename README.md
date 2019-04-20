@@ -4,13 +4,13 @@ Welcome to the Design Systems Repo. A frequently updated collection of Design Sy
 
 ---
 
-## How to Contribute
+### How to Contribute
 
 Detailed contribution guidelines are a work in progress. 🚧 You can just submit a PR for now with the markdown file and image of what you want to add, or submit it [here](https://jad8.typeform.com/to/XnIDFZ).
 
 ---
 
-## Contributors
+### Contributors
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
 
