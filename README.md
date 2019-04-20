@@ -12,12 +12,52 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- prettier-ignore -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/tsiq-swyx"><img src="https://avatars0.githubusercontent.com/u/35976578?v=4" width="100px;" alt="tsiq-swyx" /><br /><sub><b>tsiq-swyx</b></sub></a><br /><a href="#content-tsiq-swyx" title="Content">🖋</a></td>
-    <td align="center"><a href="https://github.com/alan-oliv"><img src="https://avatars3.githubusercontent.com/u/4368481?v=4" width="100px;" alt="Alan Oliveira" /><br /><sub><b>Alan Oliveira</b></sub></a><br /><a href="#content-alan-oliv" title="Content">🖋</a></td>
-    <td align="center"><a href="http://www.aaronshekey.com"><img src="https://avatars3.githubusercontent.com/u/1369864?v=4" width="100px;" alt="Aaron Shekey" /><br /><sub><b>Aaron Shekey</b></sub></a><br /><a href="#content-aaronshekey" title="Content">🖋</a></td>
+    <td align="center">
+      <a href="https://github.com/tsiq-swyx">
+        <img src="https://avatars0.githubusercontent.com/u/35976578?v=4" width="100px;" alt="tsiq-swyx" />
+        <br />
+        <sub>
+          <b>tsiq-swyx</b>
+        </sub>
+      </a>
+      <br />
+      <a href="#content-tsiq-swyx" title="Content">🖋</a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/alan-oliv">
+        <img src="https://avatars3.githubusercontent.com/u/4368481?v=4" width="100px;" alt="Alan Oliveira" />
+        <br />
+        <sub>
+          <b>Alan Oliveira</b>
+        </sub>
+      </a>
+      <br />
+      <a href="#content-alan-oliv" title="Content">🖋</a>
+    </td>
+    <td align="center">
+      <a href="http://www.aaronshekey.com">
+        <img src="https://avatars3.githubusercontent.com/u/1369864?v=4" width="100px;" alt="Aaron Shekey" />
+        <br />
+        <sub>
+          <b>Aaron Shekey</b>
+        </sub>
+      </a>
+      <br />
+      <a href="#content-aaronshekey" title="Content">🖋</a>
+    </td>
+    <td align="center">
+      <a href="https://www.konrad.design">
+        <img src="https://avatars1.githubusercontent.com/u/5304116?v=4" width="100px;" alt="Kevin Henriquez" />
+        <br />
+        <sub>
+          <b>Kevin Henriquez</b>
+        </sub>
+      </a>
+      <br />
+      <a href="#content-kkhenriquez" title="Content">🖋</a>
+    </td>
   </tr>
 </table>
-
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
