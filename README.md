@@ -1,12 +1,20 @@
 # Design Systems Repo
 
-Welcome to the Design Systems Repo. It's still a work in progress.
+Welcome to the Design Systems Repo. A frequently updated collection of Design System examples, articles, tools and talks.
+
+---
+
+## How to Contribute
+
+Detailed contribution guidelines are a work in progress. 🚧 You can just submit a PR for now with the markdown file and image of what you want to add, or submit it [here](https://jad8.typeform.com/to/XnIDFZ).
+
+---
 
 ## Contributors
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
 
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+A big thanks to these wonderful people. ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
@@ -59,5 +67,3 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
 </table>
 <!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
