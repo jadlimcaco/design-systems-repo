@@ -2,8 +2,7 @@
 date: June 6, 2018
 title: Bolt Design System
 company: Pega Digital
-link: https://bolt-design-system.com/
+link: https://boltdesignsystem.com/
 image: images/systems/bolt.jpg
-description: Bolt provides tools, patterns, services, and guidelines that systematically improve quality, timeliness, and consistency to the Pega ecosystem so that you can focus on what really matters.
-
+description: The Bolt Design System provides robust Twig and Web Component-powered UI components, reusable visual styles, and powerful tooling to help developers, designers, and content authors build, maintain, and scale best of class digital experiences.
 ---
