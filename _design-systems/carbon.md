@@ -1,5 +1,5 @@
 ---
-date: July 39, 2019
+date: July 30, 2019
 title: Carbon Design System
 company: IBM
 link: https://www.carbondesignsystem.com/
