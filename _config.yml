@@ -12,7 +12,9 @@ sass:
 
 plugins:
   - jekyll-responsive-image
-  - jekyll-srcset
+
+responsive_image:
+  template: _includes/image.html
 
 compress_html:
   comments: all
