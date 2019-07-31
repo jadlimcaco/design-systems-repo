@@ -7,9 +7,9 @@
 $(document).ready(function() {
 	
     $(function() {
-        var pull 		= $('.pull');
-            menu 		= $('.responsive-nav .nav');
-            menuHeight	= menu.height();
+        let pull 		= $('.pull');
+        let menu 		= $('.responsive-nav .nav');
+        let menuHeight	= menu.height();
 
         $(pull).on('click', function(e) {
             e.preventDefault();
@@ -17,7 +17,7 @@ $(document).ready(function() {
         });
 
         $(window).resize(function(){
-            var w = $(window).width();
+            let w = $(window).width();
             if(w > 320 && menu.is(':hidden')) {
                 menu.removeAttr('style');
             }
@@ -25,10 +25,10 @@ $(document).ready(function() {
     });
 
     /* PULL ANIMATED MENU */
-    var anchor = document.querySelectorAll('button');
+    let anchor = document.querySelectorAll('button');
     
     [].forEach.call(anchor, function(anchor){
-      var open = false;
+      let open = false;
       anchor.onclick = function(event){
         event.preventDefault();
         if(!open){
