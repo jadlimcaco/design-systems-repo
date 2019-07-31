@@ -12,6 +12,9 @@ sass:
 
 plugins:
 
+compress_html:
+  comments: all
+
 permalink: pretty
 
 collections:
