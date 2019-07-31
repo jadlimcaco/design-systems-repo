@@ -11,6 +11,8 @@ sass:
   style: compressed
 
 plugins:
+  - jekyll-responsive-image
+  - jekyll-srcset
 
 compress_html:
   comments: all
