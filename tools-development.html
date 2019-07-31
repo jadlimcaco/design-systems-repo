@@ -8,7 +8,7 @@ description: A list of good books on the subject of design systems. If you have 
 {% assign tools = site.tools | where:'tags', 'development' | sort: 'title' %}
 {%- for tool in tools %}
             <!-- Block -->
-            <a class="block block-tools" href="{{ tool.link }}" title="{{ tool.title }}" target="_blank">
+            <a class="block block-tools" href="{{ tool.link }}" title="{{ tool.title }}" target="_blank" rel="noopener noreferrer">
 
               <div class="img-wrap">
                 <img src="{{ site.baseurl }}/images/loader-ds.gif" data-echo="{{ site.baseurl }}/{{ tool.image }}" alt="{{ tool.title }}" width="800" height="400" />

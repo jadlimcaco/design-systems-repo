@@ -7,7 +7,7 @@ description: An ever growing list of design and development tools and plugins to
 {%- assign tools = site.tools | sort: 'date' | reverse %}        
 {%- for tool in tools %}
             <!-- Block -->
-            <a class="block block-tools" href="{{ tool.link }}" title="{{ tool.title }}" target="_blank">
+            <a class="block block-tools" href="{{ tool.link }}" title="{{ tool.title }}" target="_blank" rel="noopener noreferrer">
 
               <div class="img-wrap">
                 <img src="{{ site.baseurl }}/images/loader-ds.gif" data-echo="{{ site.baseurl }}/{{ tool.image }}" alt="{{ tool.title }}" width="800" height="400" />

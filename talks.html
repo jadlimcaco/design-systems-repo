@@ -21,7 +21,7 @@ description: Helpful talks and presentations from the best in the industry. Lear
 {%- assign talks = site.talks | sort: 'date' | reverse %}
 {%- for talk in talks %}
             <!-- Block -->
-            <a class="block block-talks" href="{{ talk.link }}" title="{{ talk.title }}" target="_blank">
+            <a class="block block-talks" href="{{ talk.link }}" title="{{ talk.title }}" target="_blank" rel="noopener noreferrer">
               <div class="img-wrap">
                 <img src="{{ site.baseurl }}/images/loader-talks.gif" data-echo="{{ site.baseurl }}/{{ talk.image }}" alt="{{ talk.title }}" width="800" height="400" />
               </div>

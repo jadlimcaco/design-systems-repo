@@ -23,7 +23,7 @@ layout: default
 {%- assign ds = site.design-systems | sort: 'date' | reverse %}        
 {%- for item in ds limit:3 %}
             <!-- Block -->
-            <a class="block block-home" href="{{ item.link }}" title="{{ item.title }}" target="_blank">
+            <a class="block block-home" href="{{ item.link }}" title="{{ item.title }}" target="_blank" rel="noopener noreferrer">
               <div class="img-wrap">
                 <img src="{{ site.baseurl }}/images/loader-ds.gif" data-echo="{{ site.baseurl }}/{{ item.image }}" alt="{{ item.title }}" width="800" height="400" />
               </div>

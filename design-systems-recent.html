@@ -7,7 +7,7 @@ description: This is not a comprehensive list of every design system that I have
 {%- assign design-systems = site.design-systems | sort: 'date' | reverse %}        
 {%- for design-system in design-systems %}
             <!-- Block -->
-            <a class="block block-ds" href="{{ design-system.link }}" title="{{ design-system.title }}" target="_blank">
+            <a class="block block-ds" href="{{ design-system.link }}" title="{{ design-system.title }}" target="_blank" rel="noopener noreferrer">
               <div class="img-wrap">
                 <img src="{{ site.baseurl }}/images/loader-ds.gif" data-echo="{{ site.baseurl }}/{{ design-system.image }}" alt="{{ design-system.title }}" width="800" height="400" />
               </div>
