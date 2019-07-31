@@ -46,7 +46,7 @@ layout: default
 {%- assign articles = site.articles | sort: 'date' | reverse %}        
 {%- for item in articles limit:3 %}
             <!-- Block -->
-            <a class="block block-home" href="{{ item.link }}" title="{{ item.title }}" target="_blank">
+            <a class="block block-home" href="{{ item.link }}" title="{{ item.title }}" target="_blank" rel="noopener noreferrer">
               <div class="content">
                 <h3>{{ item.author }}</h3>
                 <h2>{{ item.title }}</h2>
