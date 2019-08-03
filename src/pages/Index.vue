@@ -110,7 +110,7 @@ query Systems {
         company
         title
         description
-        image (width: 800, height: 400, quality: 90)
+        image
         link
       }
     }
