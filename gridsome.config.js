@@ -74,16 +74,6 @@ module.exports = {
       options: {
         id: 'UA-2969411-50'
       }
-    },
-    /* Google Analytics
-    ========================================== */
-    {
-      use: '@gridsome/plugin-critical',
-      options: {
-        paths: ['/'],
-        width: 1400,
-        height: 900
-      }
     }
   ]
 
