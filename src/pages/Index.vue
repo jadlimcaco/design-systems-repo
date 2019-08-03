@@ -132,7 +132,7 @@ query Systems {
 
 <script>
 export default {
-  name: 'Design Systems Repo',
+  name: 'home',
   metaInfo: {
     title: 'Design Systems Repo | A Collection of Design System Resources',
     meta: [

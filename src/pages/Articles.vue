@@ -14,15 +14,15 @@
 
           <!-- Tags -->
           <!-- <ul class="filter">
-            <li class="active"><a href="#" class="all">All <span class="number"></span></a></li>
-            <li><a href="#" class="animation">Animation</a></li>
+            <li><g-link to="/articles" class="all">All <span class="number"></span></g-link></li>
+            <li><g-link to="/tag/animation" class="animation">Animation</g-link></li>
             <li><a href="#" class="code">Code</a></li>
             <li><a href="#" class="contribution">Contribution</a></li>
             <li><a href="#" class="design-tokens">Design Tokens</a></li>
             <li><a href="#" class="figma">Figma</a></li>
             <li><a href="#" class="leadership">Leadership</a></li>
             <li><a href="#" class="patterns">Patterns</a></li>
-            <li><a href="#" class="process">Process</a></li>
+            <li><a href="/tag/process" class="process">Process</a></li>
             <li><a href="#" class="sketch">Sketch</a></li>
           </ul> -->
 
@@ -55,6 +55,11 @@ query Articles {
         link
         date (format: "MMMM D, Y")
         author
+        tags {
+          id
+          title
+          path
+        }
       }
     }
   }
@@ -63,7 +68,7 @@ query Articles {
 
 <script>
 export default {
-  name: 'Design Systems',
+  name: 'articles',
   metaInfo: {
     title: 'Articles | Design Systems Repo',
     meta: [

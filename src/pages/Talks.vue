@@ -52,7 +52,7 @@ query Talks {
 
 <script>
 export default {
-  name: 'Talks',
+  name: 'talks',
   metaInfo: {
     title: 'Talks | Design Systems Repo',
     meta: [

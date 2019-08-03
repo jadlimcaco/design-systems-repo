@@ -17,6 +17,11 @@ module.exports = {
   },
 
   plugins: [
+    /* Purge CSS
+    ========================================== */
+    {
+      use: 'gridsome-plugin-purgecss',
+    },
     /* Books
     ========================================== */
     {
@@ -52,9 +57,17 @@ module.exports = {
     {
       use: "@gridsome/source-filesystem",
       options: {
-        path: "content/articles/**/*.md",
+        path: "content/articles/*.md",
         typeName: "Articles",
         route: '/:slug',
+        refs: {
+          // Creates a GraphQL collection from 'tags' in front-matter and adds a reference.
+          tags: {
+            typeName: 'Tag',
+            route: 'tag/:id',
+            create: true
+          }
+        }
       }
     },
     /* Design Systems

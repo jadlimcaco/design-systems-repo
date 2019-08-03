@@ -59,7 +59,7 @@ query Tools {
 
 <script>
 export default {
-  name: 'Tools',
+  name: 'tools',
   metaInfo: {
     title: 'Tools | Design Systems Repo',
     meta: [

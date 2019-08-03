@@ -11,5 +11,8 @@
     "@gridsome/source-filesystem": "^0.5.0",
     "@gridsome/transformer-remark": "^0.3.2",
     "gridsome": "^0.6.7"
+  },
+  "devDependencies": {
+    "gridsome-plugin-purgecss": "^1.0.12"
   }
 }

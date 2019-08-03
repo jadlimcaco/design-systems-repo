@@ -50,7 +50,7 @@ query Books {
 
 <script>
 export default {
-  name: 'Books',
+  name: 'books',
   metaInfo: {
     title: 'Books | Design Systems Repo',
     meta: [
