@@ -395,7 +395,6 @@ h1.post-title {
   cursor: pointer;
   position: relative;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
-  will-change: transform, box-shadow;
 }
 
 .block:hover {
