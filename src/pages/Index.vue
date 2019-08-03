@@ -101,14 +101,6 @@
   </Layout>
 </template>
 
-<script>
-export default {
-  metaInfo: {
-    title: 'Design Systems Repo | A Collection of Design System Resources'
-  }
-}
-</script>
-
 <page-query>
 query Systems {
 	systems: allSystems(perPage: 3) {
@@ -137,3 +129,15 @@ query Systems {
   }
 }
 </page-query>
+
+<script>
+export default {
+  name: 'Design Systems Repo',
+  metaInfo: {
+    title: 'Design Systems Repo | A Collection of Design System Resources',
+    meta: [
+      { name: 'description', content: 'An organized and frequently updated collection of Design System examples, resources, tools, articles and videos.' }
+    ],
+  }
+}
+</script>

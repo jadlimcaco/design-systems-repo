@@ -47,3 +47,15 @@ query Books {
   }
 }
 </page-query>
+
+<script>
+export default {
+  name: 'Books',
+  metaInfo: {
+    title: 'Books | Design Systems Repo',
+    meta: [
+      { name: 'description', content: 'A list of good books on the subject of design systems. If you have any recommendations, please send me a tweet at @jadlimcaco and I will add it to the list.' }
+    ],
+  }
+}
+</script>

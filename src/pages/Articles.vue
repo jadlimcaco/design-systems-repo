@@ -63,12 +63,13 @@ query Articles {
 
 <script>
 export default {
+  name: 'Design Systems',
   metaInfo: {
     title: 'Articles | Design Systems Repo',
     meta: [
       {
         name: 'description',
-        content: 'This is not a comprehensive list of every design system that I have come across. Rather, it\'s a collection of ones that I personally found to be helpful and inspiring for my work.'
+        content: 'An index of insightful articles about design systems.'
       }
     ]
   }

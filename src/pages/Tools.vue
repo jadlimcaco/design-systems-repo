@@ -56,3 +56,15 @@ query Tools {
   }
 }
 </page-query>
+
+<script>
+export default {
+  name: 'About',
+  metaInfo: {
+    title: 'About | Design Systems Repo',
+    meta: [
+      { name: 'description', content: 'Learn more about Design Systems Repo.' }
+    ],
+  }
+}
+</script>

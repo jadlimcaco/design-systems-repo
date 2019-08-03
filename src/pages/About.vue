@@ -62,8 +62,12 @@
 
 <script>
 export default {
+  name: 'About',
   metaInfo: {
-    title: 'About'
+    title: 'About | Design Systems Repo',
+    meta: [
+      { name: 'description', content: 'Learn more about Design Systems Repo.' }
+    ],
   }
 }
 </script>

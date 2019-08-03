@@ -49,3 +49,15 @@ query Talks {
   }
 }
 </page-query>
+
+<script>
+export default {
+  name: 'Talks',
+  metaInfo: {
+    title: 'Talks | Design Systems Repo',
+    meta: [
+      { name: 'description', content: 'Helpful talks and presentations from the best in the industry. Learn more about the innovation that is happening in design systems and design tooling.' }
+    ],
+  }
+}
+</script>
