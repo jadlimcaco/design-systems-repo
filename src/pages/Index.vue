@@ -17,7 +17,7 @@
 
         <g-link class="block title" to="/design-systems" title="Design Systems Gallery">
           <div class="content">
-            <g-image immediate="true" src="~/assets/images/illustration-ds.svg" width="94" height="86" alt="Design System Legos" />
+            <g-image src="~/assets/images/illustration-ds.svg" width="94" height="86" alt="Design System Legos" />
             <h1>Latest Design Systems</h1>
             <p class="button">View all</p>
           </div>
@@ -26,7 +26,7 @@
         <!-- Block -->
         <a class="block block-home" v-for="edge in $page.systems.edges" :key="edge.node.id" :href="edge.node.link" target="_blank" rel="nofollow noreferrer">
           <div class="img-wrap">
-            <g-image immediate="true" :src="edge.node.image" width="365" :alt="edge.node.title" />
+            <g-image :src="edge.node.image" width="365" :alt="edge.node.title" />
           </div>
           <div class="content">
             <h3 v-html="edge.node.company"></h3>
