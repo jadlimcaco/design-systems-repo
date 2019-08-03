@@ -8,7 +8,7 @@
             <h1 class="post-title">Design Systems</h1>
             <p>A comprehensive and curated list of design systems, style guides and pattern libraries that you can use for inspiration.</p>
           </div>
-          <g-image class="illustration" src="~/assets/images/illustration-ds.svg" width="94" height="86" alt="Design System Legos" />
+          <g-image immediate="true" class="illustration" src="~/assets/images/illustration-ds.svg" width="94" height="86" alt="Design System Legos" />
         </div>
       </header>
 
@@ -17,7 +17,7 @@
         <!-- Block -->
         <a class="block block-ds" v-for="edge in $page.posts.edges" :key="edge.node.id" :href="edge.node.link" target="_blank" rel="nofollow noreferrer">
           <div class="img-wrap">
-            <g-image :src="edge.node.image" :alt="edge.node.title" />
+            <g-image :src="edge.node.image" :alt="edge.node.title" width="424" />
           </div>
           <div class="content">
             <h3 v-html="edge.node.company"></h3>

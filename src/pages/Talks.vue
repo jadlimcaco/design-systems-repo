@@ -8,7 +8,7 @@
             <h1 class="post-title">Talks on Design Systems</h1>
             <p>Helpful talks and presentations from the best in the industry. Learn more about the innovation that is happening in design systems and design tooling.</p>
           </div>
-          <g-image class="illustration" src="~/assets/images/illustration-talks.svg" width="94" height="86" alt="Talks on Design Systems" />
+          <g-image immediate="true" class="illustration" src="~/assets/images/illustration-talks.svg" width="94" height="86" alt="Talks on Design Systems" />
         </div>
       </header>
 
@@ -17,7 +17,7 @@
         <!-- Block -->
         <a class="block block-talks" v-for="edge in $page.posts.edges" :key="edge.node.id" :href="edge.node.link" target="_blank" rel="nofollow noreferrer">
           <div class="img-wrap">
-            <g-image :src="edge.node.image" :alt="edge.node.title" />
+            <g-image :src="edge.node.image" :alt="edge.node.title" width="424" />
           </div>
           <div class="content">
             <h3 v-html="edge.node.speaker"></h3>
