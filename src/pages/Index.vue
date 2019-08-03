@@ -7,7 +7,7 @@
       <header class="post-header clearfix">
         <div class="post-head-wrap">
           <div class="post-head-content">
-            <h1 class="post-title">A frequently updated collection of Design System <g-link to="/design-systems">examples</g-link>, <g-link to="/articles">articles</g-link>, <g-link to="/tools">tools</g-link> and <g-link to="/talks">talks</g-link>.</h1>
+            <h1 class="post-title">A frequently updated collection of Design System <g-link to="/design-systems" title="Design Systems">examples</g-link>, <g-link to="/articles" title="Articles">articles</g-link>, <g-link to="/tools" title="Tools">tools</g-link> and <g-link to="/talks" title="Talks">talks</g-link>.</h1>
           </div>
         </div>
       </header>
