@@ -59,11 +59,11 @@ query Tools {
 
 <script>
 export default {
-  name: 'About',
+  name: 'Tools',
   metaInfo: {
-    title: 'About | Design Systems Repo',
+    title: 'Tools | Design Systems Repo',
     meta: [
-      { name: 'description', content: 'Learn more about Design Systems Repo.' }
+      { name: 'description', content: 'An ever growing list of design and development tools and plugins to help you build, maintain, and organize your own design system.' }
     ],
   }
 }
