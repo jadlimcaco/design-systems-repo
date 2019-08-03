@@ -1,4 +1,8 @@
-_site
-.sass-cache
-.jekyll-metadata
+*.log
+.cache
 .DS_Store
+src/.temp
+node_modules
+.env
+.env.*
+.vscode

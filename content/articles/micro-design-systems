@@ -1,0 +1,23 @@
+---
+date: 2019-06-07
+title: Micro Design Systems — breaking the Monolith
+author: Paul van Oijen
+link: https://uxdesign.cc/micro-design-systems-breaking-the-monolith-c2b4abcd7158
+description: With many of our design systems still in their infancy, now is the time for us to mature our work. By modeling, categorizing and extracting the different services in our systems, we force ourselves to answer questions about the nature of different elements, set quality standards for their foundation, and prepare them for the future.
+tags:
+- process
+
+# ================================
+# ARTICLE TAGS AVAILABLE
+# ================================
+# - animation
+# - code
+# - contribution
+# - design-tokens
+# - figma
+# - leadership
+# - patterns
+# - process
+# - sketch
+# ================================
+---
