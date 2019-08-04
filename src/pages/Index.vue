@@ -15,7 +15,7 @@
       <!-- Design Systems -->
       <section class="post-content content-ds">
 
-        <g-link class="block title" to="/design-systems" title="Design Systems Gallery">
+        <g-link class="block title" to="/design-systems-recent" title="Design Systems Gallery">
           <div class="content">
             <g-image src="~/assets/images/illustration-ds.svg" width="94" height="86" alt="Design System Legos" />
             <h1>Latest Design Systems</h1>

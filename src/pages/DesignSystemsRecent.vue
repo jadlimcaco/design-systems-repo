@@ -40,7 +40,7 @@
 
 <page-query>
 query Systems {
-	posts: allSystems(sortBy: "title", order: ASC) {
+	posts: allSystems {
     edges {
       node {
         id
@@ -57,7 +57,7 @@ query Systems {
 
 <script>
 export default {
-  name: 'design-systems',
+  name: 'design-systems-recent',
   metaInfo: {
     title: 'Design Systems Repo | A Collection of Design System Resources',
     meta: [

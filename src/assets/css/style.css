@@ -537,7 +537,7 @@ h1.post-title {
 
 .filter li {
   display: inline-block;
-  margin-right: 2px;
+  margin-right: 4px;
 }
 
 .filter a.active {
