@@ -58,6 +58,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "dbanksdesign",
+      "name": "Danny Banks",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/321279?v=4",
+      "profile": "http://dbanks.design",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
