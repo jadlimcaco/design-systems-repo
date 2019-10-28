@@ -39,6 +39,7 @@ query Books {
       node {
         id
         title
+	author
         description
         image
         link
