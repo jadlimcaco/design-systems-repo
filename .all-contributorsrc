@@ -67,6 +67,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "mattfelten",
+      "name": "Matt Felten",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/488744?v=4",
+      "profile": "http://mattfelten.com",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
