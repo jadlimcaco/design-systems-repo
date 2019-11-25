@@ -1,0 +1,86 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "tsiq-swyx",
+      "name": "tsiq-swyx",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/35976578?v=4",
+      "profile": "https://github.com/tsiq-swyx",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "alan-oliv",
+      "name": "Alan Oliveira",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/4368481?v=4",
+      "profile": "https://github.com/alan-oliv",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "kkhenriquez",
+      "name": "Kevin Henriquez",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/5304116?v=4",
+      "profile": "https://www.konrad.design",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "aaronshekey",
+      "name": "Aaron Shekey",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1369864?v=4",
+      "profile": "http://www.aaronshekey.com",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "sghoweri",
+      "name": "Salem Ghoweri",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1617209?v=4",
+      "profile": "https://boltdesignsystem.com",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "chrisconnors-ibm",
+      "name": "Chris Connors",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/35537391?v=4",
+      "profile": "https://github.com/chrisconnors-ibm",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "dbanksdesign",
+      "name": "Danny Banks",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/321279?v=4",
+      "profile": "http://dbanks.design",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "mattfelten",
+      "name": "Matt Felten",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/488744?v=4",
+      "profile": "http://mattfelten.com",
+      "contributions": [
+        "content"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "design-systems-repo",
+  "projectOwner": "jadlimcaco",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+}
