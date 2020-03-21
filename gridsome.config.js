@@ -9,7 +9,14 @@ module.exports = {
   siteUrl: 'https://jadlimcaco.github.io',
   titleTemplate: '%s',
   transformers: {
-    remark: {}
+    remark: {
+      externalLinksTarget: '_blank',
+      externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
+      anchorClassName: 'icon icon-link',
+      plugins: [
+        // ...global plugins
+      ]
+    }
   },
   icon: {
     favicon: './src/assets/images/favicon.png',

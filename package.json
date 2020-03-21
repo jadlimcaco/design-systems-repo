@@ -8,9 +8,11 @@
   },
   "dependencies": {
     "@gridsome/plugin-google-analytics": "^0.1.0",
-    "@gridsome/source-filesystem": "^0.5.0",
-    "@gridsome/transformer-remark": "^0.3.2",
-    "gridsome": "^0.6.7"
+    "@gridsome/source-filesystem": "^0.6.2",
+    "@gridsome/transformer-remark": "^0.5.0",
+    "gridsome": "^0.6.7",
+    "gridsome-plugin-netlify-cms": "^1.0.9",
+    "netlify-cms": "^2.10.35"
   },
   "devDependencies": {
     "gridsome-plugin-purgecss": "^1.0.12"

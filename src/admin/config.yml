@@ -1,0 +1,20 @@
+backend:
+  name: design-systems-repo
+  repo: jadlimcaco/design-systems-repo
+
+media_folder: "static/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "design-systems"
+    label: "Systems"
+    folder: "design-systems"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Company", name: "company", widget: "text" }
+      - { label: "Link", name: "link", widget: "text" }
+      - { label: "Image", name: "image", widget: "image" }
+      - { label: "Date", name: "date", widget: "date" }
+      - { label: "Description", name: "description", widget: "text" }
