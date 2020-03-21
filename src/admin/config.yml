@@ -1,20 +1,100 @@
 backend:
-  name: design-systems-repo
+  name: github
   repo: jadlimcaco/design-systems-repo
 
-media_folder: "static/uploads"
-public_folder: "/uploads"
+media_folder: '/content/'
+public_folder: '/'
 
 collections:
-  - name: "design-systems"
-    label: "Systems"
-    folder: "design-systems"
+  - name: 'design-systems'
+    label: 'Systems'
+    folder: 'content/design-systems'
+    media_folder: 'images'
     create: true
-    slug: "{{slug}}"
+    slug: '{{slug}}'
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Company", name: "company", widget: "text" }
-      - { label: "Link", name: "link", widget: "text" }
-      - { label: "Image", name: "image", widget: "image" }
-      - { label: "Date", name: "date", widget: "date" }
-      - { label: "Description", name: "description", widget: "text" }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Company', name: 'company', widget: 'string' }
+      - { label: 'Link', name: 'link', widget: 'string' }
+      - { label: 'Image', name: 'image', widget: 'image' }
+      - { label: 'Date', name: 'date', widget: 'date' }
+      - { label: 'Description', name: 'description', widget: 'text' }
+  - name: 'articles'
+    label: 'Articles'
+    folder: 'content/articles'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Author', name: 'author', widget: 'string' }
+      - { label: 'Link', name: 'link', widget: 'string' }
+      - { label: 'Date', name: 'date', widget: 'date' }
+      - { label: 'Description', name: 'description', widget: 'text' }
+      - label: 'Tags'
+        name: 'tags'
+        multiple: true
+        widget: 'select'
+        options:
+          - animation
+          - code
+          - contribution
+          - design-tokens
+          - figma
+          - leadership
+          - patterns
+          - process
+          - sketch
+  - name: 'books'
+    label: 'Books'
+    folder: 'content/books'
+    media_folder: 'images'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Author', name: 'author', widget: 'string' }
+      - { label: 'Link', name: 'link', widget: 'string' }
+      - { label: 'Image', name: 'image', widget: 'image' }
+      - { label: 'Date', name: 'date', widget: 'date' }
+      - { label: 'Description', name: 'description', widget: 'text' }
+  - name: 'talks'
+    label: 'Talks'
+    folder: 'content/talks'
+    media_folder: 'images'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Speaker', name: 'speaker', widget: 'string' }
+      - { label: 'Link', name: 'link', widget: 'string' }
+      - { label: 'Image', name: 'image', widget: 'image' }
+      - { label: 'Date', name: 'date', widget: 'date' }
+      - { label: 'Description', name: 'description', widget: 'text' }
+  - name: 'tools'
+    label: 'Tools'
+    folder: 'content/tools'
+    media_folder: 'images'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Link', name: 'link', widget: 'string' }
+      - { label: 'Image', name: 'image', widget: 'image' }
+      - { label: 'Date', name: 'date', widget: 'date' }
+      - { label: 'Description', name: 'description', widget: 'text' }
+      - label: 'Tags'
+        name: 'tags'
+        multiple: true
+        widget: 'select'
+        options:
+          - design
+          - development
+          - documentation
+          - frameworks
+          - sketch
+      - label: 'If Sketch (Type)'
+        name: 'type'
+        widget: 'select'
+        options:
+          - Plugin
+          - Sketch File

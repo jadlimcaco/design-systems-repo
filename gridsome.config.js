@@ -24,6 +24,11 @@ module.exports = {
   },
 
   plugins: [
+    /* Netlify CMS
+    ========================================== */
+    {
+      use: 'gridsome-plugin-netlify-cms',
+    },
     /* Purge CSS
     ========================================== */
     {
