@@ -12,6 +12,7 @@
     "@gridsome/transformer-remark": "^0.5.0",
     "gridsome": "^0.6.7",
     "gridsome-plugin-netlify-cms": "^1.0.9",
+    "gridsome-plugin-netlify-cms-paths": "^0.3.1",
     "netlify-cms": "^2.10.35"
   },
   "devDependencies": {

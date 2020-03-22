@@ -3,13 +3,12 @@ backend:
   repo: jadlimcaco/design-systems-repo
 
 media_folder: 'dist/assets/static'
-public_folder: '../'
+public_folder: '/assets/static/uploads'
 
 collections:
   - name: 'design-systems'
     label: 'Systems'
     folder: 'content/design-systems'
-    media_folder: 'images'
     create: true
     slug: '{{slug}}'
     fields:
