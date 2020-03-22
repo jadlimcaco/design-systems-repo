@@ -10,6 +10,7 @@ collections:
     label: 'Systems'
     folder: 'content/design-systems'
     media_folder: './images'
+    public_folder: './images'
     create: true
     slug: '{{slug}}'
     fields:
