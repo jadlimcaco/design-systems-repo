@@ -8,7 +8,9 @@ public_folder: '/uploads'
 collections:
   - name: 'design-systems'
     label: 'Systems'
-    folder: 'content/design-systems'
+    folder: 'content'
+    path: 'design-sytems/{{slug}}'
+    media_folder: '/'
     create: true
     slug: '{{slug}}'
     fields:
