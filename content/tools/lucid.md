@@ -2,11 +2,10 @@
 date: 2018-04-08
 title: Lucid
 link: https://lucid.style/
-image: ./images/lucid.jpg
+image: uploads/lucid.jpg
 description: Lucid is a tool for creating, managing and sharing design systems. From a simple component library through to detailed descriptions of your styles, Lucid makes it easy.
 tags:
-- documentation
-
+  - documentation
 # ================================
 # TOOLS CATEGORIES AVAILABLE
 # ================================

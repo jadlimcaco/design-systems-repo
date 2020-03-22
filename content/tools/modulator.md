@@ -2,11 +2,10 @@
 date: 2018-04-11
 title: Modulator
 link: https://hihayk.github.io/modulator/
-image: ./images/modulator.jpg
+image: uploads/modulator.jpg
 description: Modulator was created to experiment with spacing in design systems. Modulator helps designers define a base unit size and create preset spaces.
 tags:
-- development
-
+  - development
 # ================================
 # TOOLS CATEGORIES AVAILABLE
 # ================================

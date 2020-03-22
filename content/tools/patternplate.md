@@ -2,12 +2,11 @@
 date: 2018-03-02
 title: Patternplate
 link: https://patternplate.github.io/
-image: ./images/patternplate.jpg
+image: uploads/patternplate.jpg
 description: Patternplate is a documentation and development interface for component libraries. Connect the dots with patternplate and stop getting lost in inconsistency.
 tags:
-- development
-- documentation
-
+  - development
+  - documentation
 # ================================
 # TOOLS CATEGORIES AVAILABLE
 # ================================

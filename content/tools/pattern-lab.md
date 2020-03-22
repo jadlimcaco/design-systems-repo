@@ -2,11 +2,10 @@
 date: 2017-12-21
 title: Pattern Lab
 link: http://patternlab.io/
-image: ./images/pattern-lab.jpg
+image: uploads/pattern-lab.jpg
 description: Pattern Lab helps you and your team build thoughtful, pattern-driven user interfaces using atomic design principles.
 tags:
-- documentation
-
+  - documentation
 # ================================
 # TOOLS CATEGORIES AVAILABLE
 # ================================

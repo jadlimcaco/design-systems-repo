@@ -2,12 +2,11 @@
 date: 2018-04-12
 title: Symbol Design System
 link: https://symboldesign.co/
-image: ./images/symbol-ds.jpg
+image: uploads/symbol-ds.jpg
 description: Symbol is an advanced web-design system based on Sketch nested symbols. Every component can be easily customized via overrides.
 tags:
-- sketch
+  - sketch
 type: Sketch File
-
 # ================================
 # TOOLS CATEGORIES AVAILABLE
 # ================================

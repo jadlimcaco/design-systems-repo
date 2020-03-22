@@ -2,13 +2,12 @@
 date: 2018-04-03
 title: InVision Design System Manager
 link: https://www.invisionapp.com/blog/announcing-invision-design-system-manager/
-image: ./images/dsm.jpg
+image: uploads/dsm.jpg
 description: InVision DSM makes it possible for every product team to create and maintain a design system at scale—allowing teams to maintain a consistent user experience across every digital interface.
 tags:
-- design
-- sketch
+  - design
+  - sketch
 type: Plugin
-
 # ================================
 # TOOLS CATEGORIES AVAILABLE
 # ================================

@@ -2,7 +2,7 @@
 title: Orbit
 company: Kiwi.com
 link: 'https://orbit.kiwi/'
-image: ./images/orbit-ds.jpg
+image: uploads/orbit-ds.jpg
 date: 2020-03-21T21:26:22.562Z
 description: >-
   Orbit is an open-source design system created for specific needs of Kiwi.com

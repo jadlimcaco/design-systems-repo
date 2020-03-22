@@ -101,6 +101,27 @@ module.exports = {
         coverField: 'image'
       }
     },
+    {
+      use: 'gridsome-plugin-netlify-cms-paths',
+      options: {
+        contentTypes: ['Books'],
+        coverField: 'image'
+      }
+    },
+    {
+      use: 'gridsome-plugin-netlify-cms-paths',
+      options: {
+        contentTypes: ['Talks'],
+        coverField: 'image'
+      }
+    },
+    {
+      use: 'gridsome-plugin-netlify-cms-paths',
+      options: {
+        contentTypes: ['Tools'],
+        coverField: 'image'
+      }
+    },
     /* Google Analytics
     ========================================== */
     {

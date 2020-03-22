@@ -8,9 +8,7 @@ public_folder: '/uploads'
 collections:
   - name: 'design-systems'
     label: 'Systems'
-    folder: 'content'
-    path: 'design-sytems/{{slug}}'
-    media_folder: '/'
+    folder: 'content/design-systems'
     create: true
     slug: '{{slug}}'
     fields:
@@ -48,7 +46,6 @@ collections:
   - name: 'books'
     label: 'Books'
     folder: 'content/books'
-    media_folder: 'images'
     create: true
     slug: '{{slug}}'
     fields:
@@ -61,7 +58,6 @@ collections:
   - name: 'talks'
     label: 'Talks'
     folder: 'content/talks'
-    media_folder: 'images'
     create: true
     slug: '{{slug}}'
     fields:
@@ -74,7 +70,6 @@ collections:
   - name: 'tools'
     label: 'Tools'
     folder: 'content/tools'
-    media_folder: 'images'
     create: true
     slug: '{{slug}}'
     fields:
