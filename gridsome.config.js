@@ -39,7 +39,7 @@ module.exports = {
     {
       use: "@gridsome/source-filesystem",
       options: {
-        path: "content/books/**/*.md",
+        path: "content/books/*.md",
         typeName: "Books",
         route: '/:slug',
       }
@@ -49,7 +49,7 @@ module.exports = {
     {
       use: "@gridsome/source-filesystem",
       options: {
-        path: "content/talks/**/*.md",
+        path: "content/talks/*.md",
         typeName: "Talks",
         route: '/:slug',
       }
@@ -59,7 +59,7 @@ module.exports = {
     {
       use: "@gridsome/source-filesystem",
       options: {
-        path: "content/tools/**/*.md",
+        path: "content/tools/*.md",
         typeName: "Tools",
         route: '/:slug',
       }
@@ -87,9 +87,18 @@ module.exports = {
     {
       use: "@gridsome/source-filesystem",
       options: {
-        path: "content/design-systems/**/*.md",
+        path: "content/design-systems/*.md",
         typeName: "Systems",
         route: '/:slug',
+      }
+    },
+     /* Image Path fix for Netlify
+    ========================================== */
+    {
+      use: 'gridsome-plugin-netlify-cms-paths',
+      options: {
+        contentTypes: ['Systems'],
+        coverField: 'image'
       }
     },
     /* Google Analytics

@@ -2,8 +2,8 @@ backend:
   name: github
   repo: jadlimcaco/design-systems-repo
 
-media_folder: 'dist/assets/static/uploads'
-public_folder: '/assets/static/uploads'
+media_folder: 'static/uploads'
+public_folder: '/uploads'
 
 collections:
   - name: 'design-systems'
