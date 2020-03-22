@@ -2,7 +2,7 @@
 date: 2018-01-01
 title: Figma
 link: https://www.figma.com/
-image: uploads/figma.jpg
+image: /uploads/figma.jpg
 description: Design, prototype, and gather feedback all in one place. Figma is the first interface design tool based in the browser, making it easier for teams to create software.
 tags:
   - design

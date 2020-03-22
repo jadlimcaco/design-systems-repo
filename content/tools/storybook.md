@@ -2,7 +2,7 @@
 date: 2018-03-02
 title: Storybook
 link: https://storybook.js.org/
-image: uploads/storybook.jpg
+image: /uploads/storybook.jpg
 description: Storybook is the UI development environment You'll love to use. You can use it with any kind of React or Vue or Angular project.
 tags:
   - development

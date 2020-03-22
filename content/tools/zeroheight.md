@@ -2,7 +2,7 @@
 date: 2018-04-12
 title: zeroheight
 link: https://zeroheight.com/
-image: uploads/zero-height.jpg
+image: /uploads/zero-height.jpg
 description: zeroheight brings design systems to life with beautiful, sophisticated and up-to-date styleguides synced with design and development.
 tags:
   - documentation

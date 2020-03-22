@@ -2,7 +2,7 @@
 date: 04-9-2018
 title: Symbols Manager
 link: https://gumroad.com/l/sketch-symbols-manager
-image: uploads/symbols-manager.jpg
+image: /uploads/symbols-manager.jpg
 description: Keep your symbols clean and tidy. A fast and easy way to manage all your symbols. No more hassle with long and complex symbols name, or renaming tons of symbols because you misspelled a folder name.
 tags:
   - sketch

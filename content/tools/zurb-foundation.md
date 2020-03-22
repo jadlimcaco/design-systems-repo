@@ -2,7 +2,7 @@
 date: 2017-12-11
 title: Zurb Foundation
 link: https://foundation.zurb.com/
-image: uploads/foundation.jpg
+image: /uploads/foundation.jpg
 description: Foundation is a family of responsive front-end frameworks that make it easy to design beautiful responsive websites, apps and emails that look amazing on any device.
 tags:
   - frameworks

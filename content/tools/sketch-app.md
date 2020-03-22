@@ -2,7 +2,7 @@
 date: 2018-01-01
 title: Sketch
 link: https://sketchapp.com/
-image: uploads/sketch.jpg
+image: /uploads/sketch.jpg
 description: Sketch is built for designers like you. With useful features, an intuitive interface and powerful plugins built by a community of developers, it helps you focus on what you do best.
 tags:
   - design

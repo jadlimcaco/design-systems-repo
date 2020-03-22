@@ -2,7 +2,7 @@
 date: 04-9-2018
 title: Zeplin
 link: https://zeplin.io/
-image: uploads/zeplin.jpg
+image: /uploads/zeplin.jpg
 description: Design hand-off has never been easier. Zeplin is the ultimate collaboration tool between designers and developers. It cuts meetings in half and ensures that designs are implemented perfectly.
 tags:
   - design
