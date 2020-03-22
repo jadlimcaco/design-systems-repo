@@ -5878,7 +5878,7 @@ json5@^1.0.1:
   resolved "https://registry.yarnpkg.com/json5/-/json5-1.0.1.tgz#779fb0018604fa854eacbf6252180d83543e3dbe"
   integrity sha512-aKS4WQjPenRxiQsC93MNfjx+nbF4PAdYzmd/1JIj8HYzqfbu86beTuNgXDzPknWk0n0uARlyewZo4s++ES36Ow==
   dependencies:
-    minimist "^1.2.0"
+    minimist "^1.2.2"
 
 json5@^2.1.2:
   version "2.1.2"
