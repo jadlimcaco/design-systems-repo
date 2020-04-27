@@ -10,12 +10,35 @@
     "@gridsome/plugin-google-analytics": "^0.1.0",
     "@gridsome/source-filesystem": "^0.6.2",
     "@gridsome/transformer-remark": "^0.5.0",
-    "gridsome": "^0.7.13",
+    "gridsome": "^0.7.14",
     "gridsome-plugin-netlify-cms": "^1.0.9",
     "gridsome-plugin-netlify-cms-paths": "^0.3.1",
-    "netlify-cms": "^2.10.35"
+    "minimist": "^1.2.5",
+    "netlify-cms": "^2.10.47",
+    "serialize-javascript": "^3.0.0"
   },
   "devDependencies": {
-    "gridsome-plugin-purgecss": "^1.0.12"
-  }
+    "babel-eslint": "^10.0.3",
+    "gridsome-plugin-purgecss": "^1.0.12",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.1.2"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
 }

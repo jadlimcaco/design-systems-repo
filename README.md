@@ -1,4 +1,4 @@
-# Design Systems Repo 
+# Design Systems Repo
 
 Welcome to the Design Systems Repo. A frequently updated and growing collection of Design System examples, articles, tools and talks.
 
@@ -6,7 +6,7 @@ The goal of the project is to put together a comprehensive and curated list of d
 
 ---
 
-### How to Contribute 
+### How to Contribute
 
 Detailed contribution guidelines are a work in progress. 🚧
 

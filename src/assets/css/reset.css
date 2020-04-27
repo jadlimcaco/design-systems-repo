@@ -1,57 +1,167 @@
-/*============================================================
-RESET THE CSS
-==============================================================*/
-*, *:before, *:after {
-     -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
+/* --------------------------------------------------------------
+CSS Reset
+-------------------------------------------------------------- */
+
+/*
+Prevent iOS text size adjust after orientation change,
+without disabling user zoom.
+-------------------------------------------------------------- */
 html {
-      -ms-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
-html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, hr, p, blockquote, pre, a, abbr, acronym, address,
-big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, i,
-dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figure, figcaption, footer, header, hgroup, menu, nav, output, section, summary,
-time, mark, audio, video {
+
+/* Remove margin and padding from body
+-------------------------------------------------------------- */
+body {
   margin: 0;
   padding: 0;
+}
+
+/* Remove margin and padding from base elements
+-------------------------------------------------------------- */
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hgroup,
+p,
+blockquote,
+figure,
+form,
+fieldset,
+input,
+legend,
+pre,
+abbr,
+button {
+  margin: 0;
+  padding: 0;
+}
+
+/* Reset font size, weight, and style
+-------------------------------------------------------------- */
+pre,
+code,
+address,
+caption,
+th,
+figcaption {
+  font-size: 1em;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Box sizing defaults to border-box
+-------------------------------------------------------------- */
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+/*
+Remove borders from fieldsets/iframes
+Remove border from an img when inside `a` element in IE 9/10.
+-------------------------------------------------------------- */
+fieldset,
+iframe,
+img {
   border: 0;
-  font-size: 100%;
-  vertical-align: baseline;
-  background: transparent;
-  font: inherit;
 }
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-  display: block;
+
+/* Remove default 'center' alignment on these elements.
+-------------------------------------------------------------- */
+caption,
+th {
+  text-align: left;
 }
-body {
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-}
-ol, ul {
-  list-style: none;
-}
-blockquote, q {
-  quotes: none;
-}
-blockquote:before, blockquote:after, q:before, q:after {
-  content: '';
-  content: none;
-}
-a:hover, a:active {
-  outline: 0;
-}
-ins {
-  text-decoration: none;
-}
-del {
-  text-decoration: line-through;
-}
+
+/* Remove most spacing between table cells.
+-------------------------------------------------------------- */
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+/*
+Correct `block` display not defined for any HTML5 element
+in IE 9.
+Correct `block` display not defined for `details` or `summary`
+in IE 10/11 and Firefox.
+Correct `block` display not defined for `main` in IE 11.
+-------------------------------------------------------------- */
+article,
+aside,
+footer,
+header,
+nav,
+main,
+section,
+summary,
+details,
+hgroup,
+figure,
+figcaption {
+  display: block;
+}
+
+/*
+Correct `inline-block` display not defined in IE 9.
+Normalize vertical alignment of `progress` in Chrome
+and Firefox.
+-------------------------------------------------------------- */
+audio,
+canvas,
+video,
+progress {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+/*
+Remove form-like styles from button
+
+Address `overflow` set to `hidden` in IE 9/10/11.
+-------------------------------------------------------------- */
+button {
+  background: none;
+  border: 0;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  line-height: inherit;
+  overflow: visible;
+  vertical-align: inherit;
+}
+
+/* Remove form-specific Firefox focus styles
+-------------------------------------------------------------- */
+::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* Single taps dispatched immediately on clickable elements
+-------------------------------------------------------------- */
+a,
+area,
+button,
+input,
+label,
+select,
+summary,
+textarea,
+[tabindex] {
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
 }
