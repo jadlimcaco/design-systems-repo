@@ -1,6 +1,20 @@
 {
-  "name": "ds-gridsome",
+  "name": "design-systems-repo",
   "private": true,
+  "description": "Welcome to the Design Systems Repo. A frequently updated and growing collection of Design System examples, articles, tools and talks.",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jadlimcaco/design-systems-repo.git"
+  },
+  "keywords": [
+    "design",
+    "system",
+    "styleguide",
+    "component",
+    "library"
+  ],
+  "author": "Jad Limcaco",
   "scripts": {
     "build": "gridsome build",
     "develop": "gridsome develop",
@@ -13,9 +27,7 @@
     "gridsome": "^0.7.14",
     "gridsome-plugin-netlify-cms": "^1.0.9",
     "gridsome-plugin-netlify-cms-paths": "^0.3.1",
-    "minimist": "^1.2.5",
-    "netlify-cms": "^2.10.47",
-    "serialize-javascript": "^3.0.0"
+    "netlify-cms": "^2.10.47"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
