@@ -76,11 +76,21 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "crswll",
+      "name": "Bill Criswell",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/182222?v=4",
+      "profile": "http://twitter.com/crswll",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
   "projectName": "design-systems-repo",
   "projectOwner": "jadlimcaco",
   "repoType": "github",
-  "repoHost": "https://github.com"
+  "repoHost": "https://github.com",
+  "skipCi": true
 }
