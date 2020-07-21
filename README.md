@@ -36,6 +36,7 @@ A big thanks to these wonderful people. ([emoji key](https://allcontributors.org
   <tr>
     <td align="center"><a href="http://mattfelten.com"><img src="https://avatars0.githubusercontent.com/u/488744?v=4" width="100px;" alt=""/><br /><sub><b>Matt Felten</b></sub></a><br /><a href="#content-mattfelten" title="Content">🖋</a></td>
     <td align="center"><a href="http://twitter.com/crswll"><img src="https://avatars2.githubusercontent.com/u/182222?v=4" width="100px;" alt=""/><br /><sub><b>Bill Criswell</b></sub></a><br /><a href="#content-crswll" title="Content">🖋</a></td>
+    <td align="center"><a href="https://ttalbot.fr"><img src="https://avatars1.githubusercontent.com/u/371041?v=4" width="100px;" alt=""/><br /><sub><b>Thomas TALBOT</b></sub></a><br /><a href="#content-ttalbot" title="Content">🖋</a></td>
   </tr>
 </table>
 
