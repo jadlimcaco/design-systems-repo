@@ -85,6 +85,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "ttalbot",
+      "name": "Thomas TALBOT",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/371041?v=4",
+      "profile": "https://ttalbot.fr",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
